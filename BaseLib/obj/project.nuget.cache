@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1X1PMXNj72s=",
+  "success": true,
+  "projectFilePath": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/BaseLib.csproj",
+  "expectedPackageFiles": [
+    "/home/emma/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/emma/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

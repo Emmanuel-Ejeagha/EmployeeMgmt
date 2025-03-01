@@ -1,0 +1,12 @@
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/bin/Debug/net8.0/BaseLib.deps.json
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/bin/Debug/net8.0/BaseLib.dll
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/bin/Debug/net8.0/BaseLib.pdb
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.AssemblyInfoInputs.cache
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.AssemblyInfo.cs
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.csproj.CoreCompileInputs.cache
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.sourcelink.json
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.dll
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/Debug/net8.0/refint/BaseLib.dll
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.pdb
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/Debug/net8.0/ref/BaseLib.dll
