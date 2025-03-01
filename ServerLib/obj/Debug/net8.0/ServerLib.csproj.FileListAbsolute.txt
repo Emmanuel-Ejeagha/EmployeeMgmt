@@ -1,0 +1,12 @@
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/bin/Debug/net8.0/ServerLib.deps.json
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/bin/Debug/net8.0/ServerLib.dll
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/bin/Debug/net8.0/ServerLib.pdb
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/obj/Debug/net8.0/ServerLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/obj/Debug/net8.0/ServerLib.AssemblyInfoInputs.cache
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/obj/Debug/net8.0/ServerLib.AssemblyInfo.cs
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/obj/Debug/net8.0/ServerLib.csproj.CoreCompileInputs.cache
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/obj/Debug/net8.0/ServerLib.sourcelink.json
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/obj/Debug/net8.0/ServerLib.dll
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/obj/Debug/net8.0/refint/ServerLib.dll
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/obj/Debug/net8.0/ServerLib.pdb
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/obj/Debug/net8.0/ref/ServerLib.dll
