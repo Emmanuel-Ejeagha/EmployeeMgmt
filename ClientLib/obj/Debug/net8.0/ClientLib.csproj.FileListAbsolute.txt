@@ -10,3 +10,7 @@
 /home/emma/Desktop/PROJECTS/EmployeeMgmt/ClientLib/obj/Debug/net8.0/refint/ClientLib.dll
 /home/emma/Desktop/PROJECTS/EmployeeMgmt/ClientLib/obj/Debug/net8.0/ClientLib.pdb
 /home/emma/Desktop/PROJECTS/EmployeeMgmt/ClientLib/obj/Debug/net8.0/ref/ClientLib.dll
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ClientLib/bin/Debug/net8.0/BaseLib.dll
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ClientLib/bin/Debug/net8.0/BaseLib.pdb
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ClientLib/obj/Debug/net8.0/ClientLib.csproj.AssemblyReference.cache
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ClientLib/obj/Debug/net8.0/ClientLib.csproj.Up2Date
