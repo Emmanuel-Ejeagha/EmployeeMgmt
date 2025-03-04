@@ -10,3 +10,4 @@
 /home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/Debug/net8.0/refint/BaseLib.dll
 /home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.pdb
 /home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/Debug/net8.0/ref/BaseLib.dll
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.csproj.AssemblyReference.cache
