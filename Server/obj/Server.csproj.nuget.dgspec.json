@@ -136,7 +136,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -146,7 +146,7 @@
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[8.5.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -202,7 +202,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/BaseLib.csproj": {
+                "projectPath": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/BaseLib.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -237,6 +241,10 @@
               "target": "Package",
               "version": "[8.0.13, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -245,7 +253,7 @@
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[8.5.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -253,7 +261,7 @@
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[8.5.0, )"
             }
           },
           "imports": [
