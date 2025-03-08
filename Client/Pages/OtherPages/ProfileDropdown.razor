@@ -1,0 +1,51 @@
+<div class="dropdown">
+    <button class="btn border-0 d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <img src="@(ProfileImage == "" ? "../images/background/profileImg.png" : ProfileImage)" 
+             alt="Profile Image" width="40" height="40" class="rounded-circle me-2 border">
+        <i class="bi bi-caret-down-fill"></i>
+    </button>
+
+    <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0 mt-2">
+        <li class="text-center px-3 py-2">
+            <img src="@(ProfileImage == "" ? "../images/background/defaultImage.svg" : ProfileImage)" 
+                 alt="Profile Image" width="60" height="60" class="rounded-circle border mb-2">
+            <h6 class="fw-bold">Employee Name</h6>
+            <p class="text-muted small mb-2">employee@example.com</p>
+            <hr class="dropdown-divider">
+        </li>
+        <li>
+            <a class="dropdown-item d-flex align-items-center py-2" href="">
+                <i class="bi bi-person-gear me-2"></i> Profile
+            </a>
+        </li>
+        <li>
+            <a class="dropdown-item d-flex align-items-center py-2 text-danger fw-bold" @onclick="LogoutClicked">
+                <i class="bi bi-box-arrow-left me-2"></i> Logout
+            </a>
+        </li>
+    </ul>
+</div>
+
+<style>
+    .dropdown-menu {
+        min-width: 200px;
+        border-radius: 12px;
+    }
+    
+    .dropdown-item:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+</style>
+
+@code
+{
+    public string ProfileImage { get; set; } = "";
+
+    async Task LogoutClicked()
+    {
+        var logoutModal = new UserSession();
+        var customAuthStatePovider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        await customAuthStatePovider.UpdateAuthenticationState(logoutModal);
+        NavManager.NavigateTo("/identity/account/login", replace: true, forceLoad: true );
+    }
+}

@@ -8,3 +8,12 @@
 @using Microsoft.JSInterop
 @using Client
 @using Client.Layout
+
+@using ClientLib.Helpers
+@using BaseLib.DTOs
+@using Microsoft.AspNetCore.Components.Authorization
+@using ClientLib.Services.Contracts
+
+@inject AuthenticationStateProvider AuthStateProvider
+@inject IUserAccountService accountService
+@inject NavigationManager NavManager
