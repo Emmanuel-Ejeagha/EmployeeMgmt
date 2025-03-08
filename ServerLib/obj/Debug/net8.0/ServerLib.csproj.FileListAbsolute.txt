@@ -10,3 +10,9 @@
 /home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/obj/Debug/net8.0/refint/ServerLib.dll
 /home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/obj/Debug/net8.0/ServerLib.pdb
 /home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/obj/Debug/net8.0/ref/ServerLib.dll
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/bin/Debug/net8.0/ServerLib.runtimeconfig.json
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/bin/Debug/net8.0/BaseLib.dll
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/bin/Debug/net8.0/BaseLib.pdb
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/obj/Debug/net8.0/ServerLib.csproj.AssemblyReference.cache
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/obj/Debug/net8.0/ServerLib.csproj.Up2Date
+/home/emma/Desktop/PROJECTS/EmployeeMgmt/ServerLib/obj/Debug/net8.0/ServerLib.genruntimeconfig.cache
