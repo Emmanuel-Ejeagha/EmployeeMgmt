@@ -2,6 +2,268 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AutoMapper/12.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Blazor.Bootstrap.Icons/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Blazor.Bootstrap.Icons.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Blazor.Bootstrap.Icons.dll": {}
+        }
+      },
+      "Blazored.LocalStorage/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Blazored.LocalStorage.dll": {}
+        }
+      },
+      "bootstrap/5.3.2": {
+        "type": "package",
+        "contentFiles": {
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.rtl.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.rtl.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.esm.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.esm.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.min.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.min.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authorization/8.0.13": {
         "type": "package",
         "dependencies": {
@@ -41,6 +303,23 @@
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Authorization/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "8.0.0",
+          "Microsoft.AspNetCore.Components": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.Authorization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.Authorization.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.AspNetCore.Components.Forms/8.0.13": {
@@ -120,6 +399,15 @@
           "lib/net8.0/Microsoft.AspNetCore.Metadata.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -260,6 +548,48 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Diagnostics/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Diagnostics.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.Abstractions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "System.Diagnostics.DiagnosticSource": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -309,6 +639,30 @@
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Http/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Diagnostics": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Http.dll": {
             "related": ".xml"
           }
         },
@@ -376,6 +730,29 @@
           "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
         }
       },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.Primitives/8.0.0": {
         "type": "package",
         "compile": {
@@ -390,6 +767,67 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Tokens.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Tokens.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.JSInterop/8.0.13": {
@@ -434,6 +872,136 @@
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
         }
       },
+      "Syncfusion.Blazor.Buttons/28.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Core": "28.1.39"
+        },
+        "compile": {
+          "lib/net8.0/Syncfusion.Blazor.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Blazor.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Buttons.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Buttons.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Core/28.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.10",
+          "Syncfusion.Licensing": "28.1.39",
+          "System.Text.Json": "8.0.5"
+        },
+        "compile": {
+          "lib/net8.0/Syncfusion.Blazor.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Blazor.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Core.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Core.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Popups/28.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "28.1.39",
+          "Syncfusion.Blazor.Core": "28.1.39"
+        },
+        "compile": {
+          "lib/net8.0/Syncfusion.Blazor.Popups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Blazor.Popups.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Popups.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Popups.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Themes/28.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Blazor.Themes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Blazor.Themes.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Themes.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Themes.props": {}
+        }
+      },
+      "Syncfusion.Licensing/28.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.0.0",
+          "Microsoft.IdentityModel.Tokens": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -450,9 +1018,28 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Text.Json/8.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
       "BaseLib/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1"
+        },
         "compile": {
           "bin/placeholder/BaseLib.dll": {}
         },
@@ -463,6 +1050,13 @@
       "ClientLib/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BaseLib": "1.0.0",
+          "Blazored.LocalStorage": "4.5.0",
+          "Microsoft.AspNetCore.Components.Authorization": "8.0.0",
+          "Microsoft.Extensions.Http": "8.0.0",
+          "System.IdentityModel.Tokens.Jwt": "8.0.0"
+        },
         "compile": {
           "bin/placeholder/ClientLib.dll": {}
         },
@@ -472,6 +1066,268 @@
       }
     },
     "net8.0/browser-wasm": {
+      "AutoMapper/12.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Blazor.Bootstrap.Icons/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Blazor.Bootstrap.Icons.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Blazor.Bootstrap.Icons.dll": {}
+        }
+      },
+      "Blazored.LocalStorage/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Blazored.LocalStorage.dll": {}
+        }
+      },
+      "bootstrap/5.3.2": {
+        "type": "package",
+        "contentFiles": {
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.rtl.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.rtl.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.esm.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.esm.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.min.js": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/wwwroot/js/bootstrap.min.js.map": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authorization/8.0.13": {
         "type": "package",
         "dependencies": {
@@ -511,6 +1367,23 @@
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Authorization/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "8.0.0",
+          "Microsoft.AspNetCore.Components": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.Authorization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.Authorization.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.AspNetCore.Components.Forms/8.0.13": {
@@ -590,6 +1463,15 @@
           "lib/net8.0/Microsoft.AspNetCore.Metadata.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -730,6 +1612,48 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Diagnostics/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Diagnostics.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.Abstractions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "System.Diagnostics.DiagnosticSource": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -779,6 +1703,30 @@
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Http/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Diagnostics": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Http.dll": {
             "related": ".xml"
           }
         },
@@ -846,6 +1794,29 @@
           "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
         }
       },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.Primitives/8.0.0": {
         "type": "package",
         "compile": {
@@ -860,6 +1831,67 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.IdentityModel.Tokens.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Tokens.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.JSInterop/8.0.13": {
@@ -904,6 +1936,136 @@
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
         }
       },
+      "Syncfusion.Blazor.Buttons/28.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Core": "28.1.39"
+        },
+        "compile": {
+          "lib/net8.0/Syncfusion.Blazor.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Blazor.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Buttons.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Buttons.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Core/28.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.10",
+          "Syncfusion.Licensing": "28.1.39",
+          "System.Text.Json": "8.0.5"
+        },
+        "compile": {
+          "lib/net8.0/Syncfusion.Blazor.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Blazor.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Core.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Core.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Popups/28.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "28.1.39",
+          "Syncfusion.Blazor.Core": "28.1.39"
+        },
+        "compile": {
+          "lib/net8.0/Syncfusion.Blazor.Popups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Blazor.Popups.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Popups.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Popups.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Themes/28.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Blazor.Themes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Blazor.Themes.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Themes.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Themes.props": {}
+        }
+      },
+      "Syncfusion.Licensing/28.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.0.0",
+          "Microsoft.IdentityModel.Tokens": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -920,9 +2082,28 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Text.Json/8.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
       "BaseLib/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1"
+        },
         "compile": {
           "bin/placeholder/BaseLib.dll": {}
         },
@@ -933,6 +2114,13 @@
       "ClientLib/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BaseLib": "1.0.0",
+          "Blazored.LocalStorage": "4.5.0",
+          "Microsoft.AspNetCore.Components.Authorization": "8.0.0",
+          "Microsoft.Extensions.Http": "8.0.0",
+          "System.IdentityModel.Tokens.Jwt": "8.0.0"
+        },
         "compile": {
           "bin/placeholder/ClientLib.dll": {}
         },
@@ -943,6 +2131,2201 @@
     }
   },
   "libraries": {
+    "AutoMapper/12.0.1": {
+      "sha512": "hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
+      "type": "package",
+      "path": "automapper/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.12.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.dll",
+        "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "Blazor.Bootstrap.Icons/1.0.1": {
+      "sha512": "PB8Ch7JEpJbFolvrEuLZ3LaIxKZUGh+zt4KPpP1JBeoICsV9akzau6AsCv0yY015+N40rUe2HurSB5tZ/vciYA==",
+      "type": "package",
+      "path": "blazor.bootstrap.icons/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "blazor.bootstrap.icons.1.0.1.nupkg.sha512",
+        "blazor.bootstrap.icons.nuspec",
+        "content/Components/Bi0Circle.razor",
+        "content/Components/Bi0CircleFill.razor",
+        "content/Components/Bi0Square.razor",
+        "content/Components/Bi0SquareFill.razor",
+        "content/Components/Bi123.razor",
+        "content/Components/Bi1Circle.razor",
+        "content/Components/Bi1CircleFill.razor",
+        "content/Components/Bi1Square.razor",
+        "content/Components/Bi1SquareFill.razor",
+        "content/Components/Bi2Circle.razor",
+        "content/Components/Bi2CircleFill.razor",
+        "content/Components/Bi2Square.razor",
+        "content/Components/Bi2SquareFill.razor",
+        "content/Components/Bi3Circle.razor",
+        "content/Components/Bi3CircleFill.razor",
+        "content/Components/Bi3Square.razor",
+        "content/Components/Bi3SquareFill.razor",
+        "content/Components/Bi4Circle.razor",
+        "content/Components/Bi4CircleFill.razor",
+        "content/Components/Bi4Square.razor",
+        "content/Components/Bi4SquareFill.razor",
+        "content/Components/Bi5Circle.razor",
+        "content/Components/Bi5CircleFill.razor",
+        "content/Components/Bi5Square.razor",
+        "content/Components/Bi5SquareFill.razor",
+        "content/Components/Bi6Circle.razor",
+        "content/Components/Bi6CircleFill.razor",
+        "content/Components/Bi6Square.razor",
+        "content/Components/Bi6SquareFill.razor",
+        "content/Components/Bi7Circle.razor",
+        "content/Components/Bi7CircleFill.razor",
+        "content/Components/Bi7Square.razor",
+        "content/Components/Bi7SquareFill.razor",
+        "content/Components/Bi8Circle.razor",
+        "content/Components/Bi8CircleFill.razor",
+        "content/Components/Bi8Square.razor",
+        "content/Components/Bi8SquareFill.razor",
+        "content/Components/Bi9Circle.razor",
+        "content/Components/Bi9CircleFill.razor",
+        "content/Components/Bi9Square.razor",
+        "content/Components/Bi9SquareFill.razor",
+        "content/Components/BiActivity.razor",
+        "content/Components/BiAirplane.razor",
+        "content/Components/BiAirplaneEngines.razor",
+        "content/Components/BiAirplaneEnginesFill.razor",
+        "content/Components/BiAirplaneFill.razor",
+        "content/Components/BiAlarm.razor",
+        "content/Components/BiAlarmFill.razor",
+        "content/Components/BiAlexa.razor",
+        "content/Components/BiAlignBottom.razor",
+        "content/Components/BiAlignCenter.razor",
+        "content/Components/BiAlignEnd.razor",
+        "content/Components/BiAlignMiddle.razor",
+        "content/Components/BiAlignStart.razor",
+        "content/Components/BiAlignTop.razor",
+        "content/Components/BiAlipay.razor",
+        "content/Components/BiAlphabet.razor",
+        "content/Components/BiAlphabetUppercase.razor",
+        "content/Components/BiAlt.razor",
+        "content/Components/BiAmazon.razor",
+        "content/Components/BiAmd.razor",
+        "content/Components/BiAndroid.razor",
+        "content/Components/BiAndroid2.razor",
+        "content/Components/BiApp.razor",
+        "content/Components/BiAppIndicator.razor",
+        "content/Components/BiApple.razor",
+        "content/Components/BiArchive.razor",
+        "content/Components/BiArchiveFill.razor",
+        "content/Components/BiArrow90degDown.razor",
+        "content/Components/BiArrow90degLeft.razor",
+        "content/Components/BiArrow90degRight.razor",
+        "content/Components/BiArrow90degUp.razor",
+        "content/Components/BiArrowBarDown.razor",
+        "content/Components/BiArrowBarLeft.razor",
+        "content/Components/BiArrowBarRight.razor",
+        "content/Components/BiArrowBarUp.razor",
+        "content/Components/BiArrowClockwise.razor",
+        "content/Components/BiArrowCounterclockwise.razor",
+        "content/Components/BiArrowDown.razor",
+        "content/Components/BiArrowDownCircle.razor",
+        "content/Components/BiArrowDownCircleFill.razor",
+        "content/Components/BiArrowDownLeft.razor",
+        "content/Components/BiArrowDownLeftCircle.razor",
+        "content/Components/BiArrowDownLeftCircleFill.razor",
+        "content/Components/BiArrowDownLeftSquare.razor",
+        "content/Components/BiArrowDownLeftSquareFill.razor",
+        "content/Components/BiArrowDownRight.razor",
+        "content/Components/BiArrowDownRightCircle.razor",
+        "content/Components/BiArrowDownRightCircleFill.razor",
+        "content/Components/BiArrowDownRightSquare.razor",
+        "content/Components/BiArrowDownRightSquareFill.razor",
+        "content/Components/BiArrowDownShort.razor",
+        "content/Components/BiArrowDownSquare.razor",
+        "content/Components/BiArrowDownSquareFill.razor",
+        "content/Components/BiArrowDownUp.razor",
+        "content/Components/BiArrowLeft.razor",
+        "content/Components/BiArrowLeftCircle.razor",
+        "content/Components/BiArrowLeftCircleFill.razor",
+        "content/Components/BiArrowLeftRight.razor",
+        "content/Components/BiArrowLeftShort.razor",
+        "content/Components/BiArrowLeftSquare.razor",
+        "content/Components/BiArrowLeftSquareFill.razor",
+        "content/Components/BiArrowRepeat.razor",
+        "content/Components/BiArrowReturnLeft.razor",
+        "content/Components/BiArrowReturnRight.razor",
+        "content/Components/BiArrowRight.razor",
+        "content/Components/BiArrowRightCircle.razor",
+        "content/Components/BiArrowRightCircleFill.razor",
+        "content/Components/BiArrowRightShort.razor",
+        "content/Components/BiArrowRightSquare.razor",
+        "content/Components/BiArrowRightSquareFill.razor",
+        "content/Components/BiArrowThroughHeart.razor",
+        "content/Components/BiArrowThroughHeartFill.razor",
+        "content/Components/BiArrowUp.razor",
+        "content/Components/BiArrowUpCircle.razor",
+        "content/Components/BiArrowUpCircleFill.razor",
+        "content/Components/BiArrowUpLeft.razor",
+        "content/Components/BiArrowUpLeftCircle.razor",
+        "content/Components/BiArrowUpLeftCircleFill.razor",
+        "content/Components/BiArrowUpLeftSquare.razor",
+        "content/Components/BiArrowUpLeftSquareFill.razor",
+        "content/Components/BiArrowUpRight.razor",
+        "content/Components/BiArrowUpRightCircle.razor",
+        "content/Components/BiArrowUpRightCircleFill.razor",
+        "content/Components/BiArrowUpRightSquare.razor",
+        "content/Components/BiArrowUpRightSquareFill.razor",
+        "content/Components/BiArrowUpShort.razor",
+        "content/Components/BiArrowUpSquare.razor",
+        "content/Components/BiArrowUpSquareFill.razor",
+        "content/Components/BiArrows.razor",
+        "content/Components/BiArrowsAngleContract.razor",
+        "content/Components/BiArrowsAngleExpand.razor",
+        "content/Components/BiArrowsCollapse.razor",
+        "content/Components/BiArrowsCollapseVertical.razor",
+        "content/Components/BiArrowsExpand.razor",
+        "content/Components/BiArrowsExpandVertical.razor",
+        "content/Components/BiArrowsFullscreen.razor",
+        "content/Components/BiArrowsMove.razor",
+        "content/Components/BiArrowsVertical.razor",
+        "content/Components/BiAspectRatio.razor",
+        "content/Components/BiAspectRatioFill.razor",
+        "content/Components/BiAsterisk.razor",
+        "content/Components/BiAt.razor",
+        "content/Components/BiAward.razor",
+        "content/Components/BiAwardFill.razor",
+        "content/Components/BiBack.razor",
+        "content/Components/BiBackpack.razor",
+        "content/Components/BiBackpack2.razor",
+        "content/Components/BiBackpack2Fill.razor",
+        "content/Components/BiBackpack3.razor",
+        "content/Components/BiBackpack3Fill.razor",
+        "content/Components/BiBackpack4.razor",
+        "content/Components/BiBackpack4Fill.razor",
+        "content/Components/BiBackpackFill.razor",
+        "content/Components/BiBackspace.razor",
+        "content/Components/BiBackspaceFill.razor",
+        "content/Components/BiBackspaceReverse.razor",
+        "content/Components/BiBackspaceReverseFill.razor",
+        "content/Components/BiBadge3d.razor",
+        "content/Components/BiBadge3dFill.razor",
+        "content/Components/BiBadge4k.razor",
+        "content/Components/BiBadge4kFill.razor",
+        "content/Components/BiBadge8k.razor",
+        "content/Components/BiBadge8kFill.razor",
+        "content/Components/BiBadgeAd.razor",
+        "content/Components/BiBadgeAdFill.razor",
+        "content/Components/BiBadgeAr.razor",
+        "content/Components/BiBadgeArFill.razor",
+        "content/Components/BiBadgeCc.razor",
+        "content/Components/BiBadgeCcFill.razor",
+        "content/Components/BiBadgeHd.razor",
+        "content/Components/BiBadgeHdFill.razor",
+        "content/Components/BiBadgeSd.razor",
+        "content/Components/BiBadgeSdFill.razor",
+        "content/Components/BiBadgeTm.razor",
+        "content/Components/BiBadgeTmFill.razor",
+        "content/Components/BiBadgeVo.razor",
+        "content/Components/BiBadgeVoFill.razor",
+        "content/Components/BiBadgeVr.razor",
+        "content/Components/BiBadgeVrFill.razor",
+        "content/Components/BiBadgeWc.razor",
+        "content/Components/BiBadgeWcFill.razor",
+        "content/Components/BiBag.razor",
+        "content/Components/BiBagCheck.razor",
+        "content/Components/BiBagCheckFill.razor",
+        "content/Components/BiBagDash.razor",
+        "content/Components/BiBagDashFill.razor",
+        "content/Components/BiBagFill.razor",
+        "content/Components/BiBagHeart.razor",
+        "content/Components/BiBagHeartFill.razor",
+        "content/Components/BiBagPlus.razor",
+        "content/Components/BiBagPlusFill.razor",
+        "content/Components/BiBagX.razor",
+        "content/Components/BiBagXFill.razor",
+        "content/Components/BiBalloon.razor",
+        "content/Components/BiBalloonFill.razor",
+        "content/Components/BiBalloonHeart.razor",
+        "content/Components/BiBalloonHeartFill.razor",
+        "content/Components/BiBan.razor",
+        "content/Components/BiBanFill.razor",
+        "content/Components/BiBandaid.razor",
+        "content/Components/BiBandaidFill.razor",
+        "content/Components/BiBank.razor",
+        "content/Components/BiBank2.razor",
+        "content/Components/BiBarChart.razor",
+        "content/Components/BiBarChartFill.razor",
+        "content/Components/BiBarChartLine.razor",
+        "content/Components/BiBarChartLineFill.razor",
+        "content/Components/BiBarChartSteps.razor",
+        "content/Components/BiBasket.razor",
+        "content/Components/BiBasket2.razor",
+        "content/Components/BiBasket2Fill.razor",
+        "content/Components/BiBasket3.razor",
+        "content/Components/BiBasket3Fill.razor",
+        "content/Components/BiBasketFill.razor",
+        "content/Components/BiBattery.razor",
+        "content/Components/BiBatteryCharging.razor",
+        "content/Components/BiBatteryFull.razor",
+        "content/Components/BiBatteryHalf.razor",
+        "content/Components/BiBehance.razor",
+        "content/Components/BiBell.razor",
+        "content/Components/BiBellFill.razor",
+        "content/Components/BiBellSlash.razor",
+        "content/Components/BiBellSlashFill.razor",
+        "content/Components/BiBezier.razor",
+        "content/Components/BiBezier2.razor",
+        "content/Components/BiBicycle.razor",
+        "content/Components/BiBing.razor",
+        "content/Components/BiBinoculars.razor",
+        "content/Components/BiBinocularsFill.razor",
+        "content/Components/BiBlockquoteLeft.razor",
+        "content/Components/BiBlockquoteRight.razor",
+        "content/Components/BiBluetooth.razor",
+        "content/Components/BiBodyText.razor",
+        "content/Components/BiBook.razor",
+        "content/Components/BiBookFill.razor",
+        "content/Components/BiBookHalf.razor",
+        "content/Components/BiBookmark.razor",
+        "content/Components/BiBookmarkCheck.razor",
+        "content/Components/BiBookmarkCheckFill.razor",
+        "content/Components/BiBookmarkDash.razor",
+        "content/Components/BiBookmarkDashFill.razor",
+        "content/Components/BiBookmarkFill.razor",
+        "content/Components/BiBookmarkHeart.razor",
+        "content/Components/BiBookmarkHeartFill.razor",
+        "content/Components/BiBookmarkPlus.razor",
+        "content/Components/BiBookmarkPlusFill.razor",
+        "content/Components/BiBookmarkStar.razor",
+        "content/Components/BiBookmarkStarFill.razor",
+        "content/Components/BiBookmarkX.razor",
+        "content/Components/BiBookmarkXFill.razor",
+        "content/Components/BiBookmarks.razor",
+        "content/Components/BiBookmarksFill.razor",
+        "content/Components/BiBookshelf.razor",
+        "content/Components/BiBoombox.razor",
+        "content/Components/BiBoomboxFill.razor",
+        "content/Components/BiBootstrap.razor",
+        "content/Components/BiBootstrapFill.razor",
+        "content/Components/BiBootstrapReboot.razor",
+        "content/Components/BiBorder.razor",
+        "content/Components/BiBorderAll.razor",
+        "content/Components/BiBorderBottom.razor",
+        "content/Components/BiBorderCenter.razor",
+        "content/Components/BiBorderInner.razor",
+        "content/Components/BiBorderLeft.razor",
+        "content/Components/BiBorderMiddle.razor",
+        "content/Components/BiBorderOuter.razor",
+        "content/Components/BiBorderRight.razor",
+        "content/Components/BiBorderStyle.razor",
+        "content/Components/BiBorderTop.razor",
+        "content/Components/BiBorderWidth.razor",
+        "content/Components/BiBoundingBox.razor",
+        "content/Components/BiBoundingBoxCircles.razor",
+        "content/Components/BiBox.razor",
+        "content/Components/BiBox2.razor",
+        "content/Components/BiBox2Fill.razor",
+        "content/Components/BiBox2Heart.razor",
+        "content/Components/BiBox2HeartFill.razor",
+        "content/Components/BiBoxArrowDown.razor",
+        "content/Components/BiBoxArrowDownLeft.razor",
+        "content/Components/BiBoxArrowDownRight.razor",
+        "content/Components/BiBoxArrowInDown.razor",
+        "content/Components/BiBoxArrowInDownLeft.razor",
+        "content/Components/BiBoxArrowInDownRight.razor",
+        "content/Components/BiBoxArrowInLeft.razor",
+        "content/Components/BiBoxArrowInRight.razor",
+        "content/Components/BiBoxArrowInUp.razor",
+        "content/Components/BiBoxArrowInUpLeft.razor",
+        "content/Components/BiBoxArrowInUpRight.razor",
+        "content/Components/BiBoxArrowLeft.razor",
+        "content/Components/BiBoxArrowRight.razor",
+        "content/Components/BiBoxArrowUp.razor",
+        "content/Components/BiBoxArrowUpLeft.razor",
+        "content/Components/BiBoxArrowUpRight.razor",
+        "content/Components/BiBoxFill.razor",
+        "content/Components/BiBoxSeam.razor",
+        "content/Components/BiBoxSeamFill.razor",
+        "content/Components/BiBoxes.razor",
+        "content/Components/BiBraces.razor",
+        "content/Components/BiBracesAsterisk.razor",
+        "content/Components/BiBricks.razor",
+        "content/Components/BiBriefcase.razor",
+        "content/Components/BiBriefcaseFill.razor",
+        "content/Components/BiBrightnessAltHigh.razor",
+        "content/Components/BiBrightnessAltHighFill.razor",
+        "content/Components/BiBrightnessAltLow.razor",
+        "content/Components/BiBrightnessAltLowFill.razor",
+        "content/Components/BiBrightnessHigh.razor",
+        "content/Components/BiBrightnessHighFill.razor",
+        "content/Components/BiBrightnessLow.razor",
+        "content/Components/BiBrightnessLowFill.razor",
+        "content/Components/BiBrilliance.razor",
+        "content/Components/BiBroadcast.razor",
+        "content/Components/BiBroadcastPin.razor",
+        "content/Components/BiBrowserChrome.razor",
+        "content/Components/BiBrowserEdge.razor",
+        "content/Components/BiBrowserFirefox.razor",
+        "content/Components/BiBrowserSafari.razor",
+        "content/Components/BiBrush.razor",
+        "content/Components/BiBrushFill.razor",
+        "content/Components/BiBucket.razor",
+        "content/Components/BiBucketFill.razor",
+        "content/Components/BiBug.razor",
+        "content/Components/BiBugFill.razor",
+        "content/Components/BiBuilding.razor",
+        "content/Components/BiBuildingAdd.razor",
+        "content/Components/BiBuildingCheck.razor",
+        "content/Components/BiBuildingDash.razor",
+        "content/Components/BiBuildingDown.razor",
+        "content/Components/BiBuildingExclamation.razor",
+        "content/Components/BiBuildingFill.razor",
+        "content/Components/BiBuildingFillAdd.razor",
+        "content/Components/BiBuildingFillCheck.razor",
+        "content/Components/BiBuildingFillDash.razor",
+        "content/Components/BiBuildingFillDown.razor",
+        "content/Components/BiBuildingFillExclamation.razor",
+        "content/Components/BiBuildingFillGear.razor",
+        "content/Components/BiBuildingFillLock.razor",
+        "content/Components/BiBuildingFillSlash.razor",
+        "content/Components/BiBuildingFillUp.razor",
+        "content/Components/BiBuildingFillX.razor",
+        "content/Components/BiBuildingGear.razor",
+        "content/Components/BiBuildingLock.razor",
+        "content/Components/BiBuildingSlash.razor",
+        "content/Components/BiBuildingUp.razor",
+        "content/Components/BiBuildingX.razor",
+        "content/Components/BiBuildings.razor",
+        "content/Components/BiBuildingsFill.razor",
+        "content/Components/BiBullseye.razor",
+        "content/Components/BiBusFront.razor",
+        "content/Components/BiBusFrontFill.razor",
+        "content/Components/BiCCircle.razor",
+        "content/Components/BiCCircleFill.razor",
+        "content/Components/BiCSquare.razor",
+        "content/Components/BiCSquareFill.razor",
+        "content/Components/BiCake.razor",
+        "content/Components/BiCake2.razor",
+        "content/Components/BiCake2Fill.razor",
+        "content/Components/BiCakeFill.razor",
+        "content/Components/BiCalculator.razor",
+        "content/Components/BiCalculatorFill.razor",
+        "content/Components/BiCalendar.razor",
+        "content/Components/BiCalendar2.razor",
+        "content/Components/BiCalendar2Check.razor",
+        "content/Components/BiCalendar2CheckFill.razor",
+        "content/Components/BiCalendar2Date.razor",
+        "content/Components/BiCalendar2DateFill.razor",
+        "content/Components/BiCalendar2Day.razor",
+        "content/Components/BiCalendar2DayFill.razor",
+        "content/Components/BiCalendar2Event.razor",
+        "content/Components/BiCalendar2EventFill.razor",
+        "content/Components/BiCalendar2Fill.razor",
+        "content/Components/BiCalendar2Heart.razor",
+        "content/Components/BiCalendar2HeartFill.razor",
+        "content/Components/BiCalendar2Minus.razor",
+        "content/Components/BiCalendar2MinusFill.razor",
+        "content/Components/BiCalendar2Month.razor",
+        "content/Components/BiCalendar2MonthFill.razor",
+        "content/Components/BiCalendar2Plus.razor",
+        "content/Components/BiCalendar2PlusFill.razor",
+        "content/Components/BiCalendar2Range.razor",
+        "content/Components/BiCalendar2RangeFill.razor",
+        "content/Components/BiCalendar2Week.razor",
+        "content/Components/BiCalendar2WeekFill.razor",
+        "content/Components/BiCalendar2X.razor",
+        "content/Components/BiCalendar2XFill.razor",
+        "content/Components/BiCalendar3.razor",
+        "content/Components/BiCalendar3Event.razor",
+        "content/Components/BiCalendar3EventFill.razor",
+        "content/Components/BiCalendar3Fill.razor",
+        "content/Components/BiCalendar3Range.razor",
+        "content/Components/BiCalendar3RangeFill.razor",
+        "content/Components/BiCalendar3Week.razor",
+        "content/Components/BiCalendar3WeekFill.razor",
+        "content/Components/BiCalendar4.razor",
+        "content/Components/BiCalendar4Event.razor",
+        "content/Components/BiCalendar4Range.razor",
+        "content/Components/BiCalendar4Week.razor",
+        "content/Components/BiCalendarCheck.razor",
+        "content/Components/BiCalendarCheckFill.razor",
+        "content/Components/BiCalendarDate.razor",
+        "content/Components/BiCalendarDateFill.razor",
+        "content/Components/BiCalendarDay.razor",
+        "content/Components/BiCalendarDayFill.razor",
+        "content/Components/BiCalendarEvent.razor",
+        "content/Components/BiCalendarEventFill.razor",
+        "content/Components/BiCalendarFill.razor",
+        "content/Components/BiCalendarHeart.razor",
+        "content/Components/BiCalendarHeartFill.razor",
+        "content/Components/BiCalendarMinus.razor",
+        "content/Components/BiCalendarMinusFill.razor",
+        "content/Components/BiCalendarMonth.razor",
+        "content/Components/BiCalendarMonthFill.razor",
+        "content/Components/BiCalendarPlus.razor",
+        "content/Components/BiCalendarPlusFill.razor",
+        "content/Components/BiCalendarRange.razor",
+        "content/Components/BiCalendarRangeFill.razor",
+        "content/Components/BiCalendarWeek.razor",
+        "content/Components/BiCalendarWeekFill.razor",
+        "content/Components/BiCalendarX.razor",
+        "content/Components/BiCalendarXFill.razor",
+        "content/Components/BiCamera.razor",
+        "content/Components/BiCamera2.razor",
+        "content/Components/BiCameraFill.razor",
+        "content/Components/BiCameraReels.razor",
+        "content/Components/BiCameraReelsFill.razor",
+        "content/Components/BiCameraVideo.razor",
+        "content/Components/BiCameraVideoFill.razor",
+        "content/Components/BiCameraVideoOff.razor",
+        "content/Components/BiCameraVideoOffFill.razor",
+        "content/Components/BiCapslock.razor",
+        "content/Components/BiCapslockFill.razor",
+        "content/Components/BiCapsule.razor",
+        "content/Components/BiCapsulePill.razor",
+        "content/Components/BiCarFront.razor",
+        "content/Components/BiCarFrontFill.razor",
+        "content/Components/BiCardChecklist.razor",
+        "content/Components/BiCardHeading.razor",
+        "content/Components/BiCardImage.razor",
+        "content/Components/BiCardList.razor",
+        "content/Components/BiCardText.razor",
+        "content/Components/BiCaretDown.razor",
+        "content/Components/BiCaretDownFill.razor",
+        "content/Components/BiCaretDownSquare.razor",
+        "content/Components/BiCaretDownSquareFill.razor",
+        "content/Components/BiCaretLeft.razor",
+        "content/Components/BiCaretLeftFill.razor",
+        "content/Components/BiCaretLeftSquare.razor",
+        "content/Components/BiCaretLeftSquareFill.razor",
+        "content/Components/BiCaretRight.razor",
+        "content/Components/BiCaretRightFill.razor",
+        "content/Components/BiCaretRightSquare.razor",
+        "content/Components/BiCaretRightSquareFill.razor",
+        "content/Components/BiCaretUp.razor",
+        "content/Components/BiCaretUpFill.razor",
+        "content/Components/BiCaretUpSquare.razor",
+        "content/Components/BiCaretUpSquareFill.razor",
+        "content/Components/BiCart.razor",
+        "content/Components/BiCart2.razor",
+        "content/Components/BiCart3.razor",
+        "content/Components/BiCart4.razor",
+        "content/Components/BiCartCheck.razor",
+        "content/Components/BiCartCheckFill.razor",
+        "content/Components/BiCartDash.razor",
+        "content/Components/BiCartDashFill.razor",
+        "content/Components/BiCartFill.razor",
+        "content/Components/BiCartPlus.razor",
+        "content/Components/BiCartPlusFill.razor",
+        "content/Components/BiCartX.razor",
+        "content/Components/BiCartXFill.razor",
+        "content/Components/BiCash.razor",
+        "content/Components/BiCashCoin.razor",
+        "content/Components/BiCashStack.razor",
+        "content/Components/BiCassette.razor",
+        "content/Components/BiCassetteFill.razor",
+        "content/Components/BiCast.razor",
+        "content/Components/BiCcCircle.razor",
+        "content/Components/BiCcCircleFill.razor",
+        "content/Components/BiCcSquare.razor",
+        "content/Components/BiCcSquareFill.razor",
+        "content/Components/BiChat.razor",
+        "content/Components/BiChatDots.razor",
+        "content/Components/BiChatDotsFill.razor",
+        "content/Components/BiChatFill.razor",
+        "content/Components/BiChatHeart.razor",
+        "content/Components/BiChatHeartFill.razor",
+        "content/Components/BiChatLeft.razor",
+        "content/Components/BiChatLeftDots.razor",
+        "content/Components/BiChatLeftDotsFill.razor",
+        "content/Components/BiChatLeftFill.razor",
+        "content/Components/BiChatLeftHeart.razor",
+        "content/Components/BiChatLeftHeartFill.razor",
+        "content/Components/BiChatLeftQuote.razor",
+        "content/Components/BiChatLeftQuoteFill.razor",
+        "content/Components/BiChatLeftText.razor",
+        "content/Components/BiChatLeftTextFill.razor",
+        "content/Components/BiChatQuote.razor",
+        "content/Components/BiChatQuoteFill.razor",
+        "content/Components/BiChatRight.razor",
+        "content/Components/BiChatRightDots.razor",
+        "content/Components/BiChatRightDotsFill.razor",
+        "content/Components/BiChatRightFill.razor",
+        "content/Components/BiChatRightHeart.razor",
+        "content/Components/BiChatRightHeartFill.razor",
+        "content/Components/BiChatRightQuote.razor",
+        "content/Components/BiChatRightQuoteFill.razor",
+        "content/Components/BiChatRightText.razor",
+        "content/Components/BiChatRightTextFill.razor",
+        "content/Components/BiChatSquare.razor",
+        "content/Components/BiChatSquareDots.razor",
+        "content/Components/BiChatSquareDotsFill.razor",
+        "content/Components/BiChatSquareFill.razor",
+        "content/Components/BiChatSquareHeart.razor",
+        "content/Components/BiChatSquareHeartFill.razor",
+        "content/Components/BiChatSquareQuote.razor",
+        "content/Components/BiChatSquareQuoteFill.razor",
+        "content/Components/BiChatSquareText.razor",
+        "content/Components/BiChatSquareTextFill.razor",
+        "content/Components/BiChatText.razor",
+        "content/Components/BiChatTextFill.razor",
+        "content/Components/BiCheck.razor",
+        "content/Components/BiCheck2.razor",
+        "content/Components/BiCheck2All.razor",
+        "content/Components/BiCheck2Circle.razor",
+        "content/Components/BiCheck2Square.razor",
+        "content/Components/BiCheckAll.razor",
+        "content/Components/BiCheckCircle.razor",
+        "content/Components/BiCheckCircleFill.razor",
+        "content/Components/BiCheckLg.razor",
+        "content/Components/BiCheckSquare.razor",
+        "content/Components/BiCheckSquareFill.razor",
+        "content/Components/BiChevronBarContract.razor",
+        "content/Components/BiChevronBarDown.razor",
+        "content/Components/BiChevronBarExpand.razor",
+        "content/Components/BiChevronBarLeft.razor",
+        "content/Components/BiChevronBarRight.razor",
+        "content/Components/BiChevronBarUp.razor",
+        "content/Components/BiChevronCompactDown.razor",
+        "content/Components/BiChevronCompactLeft.razor",
+        "content/Components/BiChevronCompactRight.razor",
+        "content/Components/BiChevronCompactUp.razor",
+        "content/Components/BiChevronContract.razor",
+        "content/Components/BiChevronDoubleDown.razor",
+        "content/Components/BiChevronDoubleLeft.razor",
+        "content/Components/BiChevronDoubleRight.razor",
+        "content/Components/BiChevronDoubleUp.razor",
+        "content/Components/BiChevronDown.razor",
+        "content/Components/BiChevronExpand.razor",
+        "content/Components/BiChevronLeft.razor",
+        "content/Components/BiChevronRight.razor",
+        "content/Components/BiChevronUp.razor",
+        "content/Components/BiCircle.razor",
+        "content/Components/BiCircleFill.razor",
+        "content/Components/BiCircleHalf.razor",
+        "content/Components/BiCircleSquare.razor",
+        "content/Components/BiClipboard.razor",
+        "content/Components/BiClipboard2.razor",
+        "content/Components/BiClipboard2Check.razor",
+        "content/Components/BiClipboard2CheckFill.razor",
+        "content/Components/BiClipboard2Data.razor",
+        "content/Components/BiClipboard2DataFill.razor",
+        "content/Components/BiClipboard2Fill.razor",
+        "content/Components/BiClipboard2Heart.razor",
+        "content/Components/BiClipboard2HeartFill.razor",
+        "content/Components/BiClipboard2Minus.razor",
+        "content/Components/BiClipboard2MinusFill.razor",
+        "content/Components/BiClipboard2Plus.razor",
+        "content/Components/BiClipboard2PlusFill.razor",
+        "content/Components/BiClipboard2Pulse.razor",
+        "content/Components/BiClipboard2PulseFill.razor",
+        "content/Components/BiClipboard2X.razor",
+        "content/Components/BiClipboard2XFill.razor",
+        "content/Components/BiClipboardCheck.razor",
+        "content/Components/BiClipboardCheckFill.razor",
+        "content/Components/BiClipboardData.razor",
+        "content/Components/BiClipboardDataFill.razor",
+        "content/Components/BiClipboardFill.razor",
+        "content/Components/BiClipboardHeart.razor",
+        "content/Components/BiClipboardHeartFill.razor",
+        "content/Components/BiClipboardMinus.razor",
+        "content/Components/BiClipboardMinusFill.razor",
+        "content/Components/BiClipboardPlus.razor",
+        "content/Components/BiClipboardPlusFill.razor",
+        "content/Components/BiClipboardPulse.razor",
+        "content/Components/BiClipboardX.razor",
+        "content/Components/BiClipboardXFill.razor",
+        "content/Components/BiClock.razor",
+        "content/Components/BiClockFill.razor",
+        "content/Components/BiClockHistory.razor",
+        "content/Components/BiCloud.razor",
+        "content/Components/BiCloudArrowDown.razor",
+        "content/Components/BiCloudArrowDownFill.razor",
+        "content/Components/BiCloudArrowUp.razor",
+        "content/Components/BiCloudArrowUpFill.razor",
+        "content/Components/BiCloudCheck.razor",
+        "content/Components/BiCloudCheckFill.razor",
+        "content/Components/BiCloudDownload.razor",
+        "content/Components/BiCloudDownloadFill.razor",
+        "content/Components/BiCloudDrizzle.razor",
+        "content/Components/BiCloudDrizzleFill.razor",
+        "content/Components/BiCloudFill.razor",
+        "content/Components/BiCloudFog.razor",
+        "content/Components/BiCloudFog2.razor",
+        "content/Components/BiCloudFog2Fill.razor",
+        "content/Components/BiCloudFogFill.razor",
+        "content/Components/BiCloudHail.razor",
+        "content/Components/BiCloudHailFill.razor",
+        "content/Components/BiCloudHaze.razor",
+        "content/Components/BiCloudHaze2.razor",
+        "content/Components/BiCloudHaze2Fill.razor",
+        "content/Components/BiCloudHazeFill.razor",
+        "content/Components/BiCloudLightning.razor",
+        "content/Components/BiCloudLightningFill.razor",
+        "content/Components/BiCloudLightningRain.razor",
+        "content/Components/BiCloudLightningRainFill.razor",
+        "content/Components/BiCloudMinus.razor",
+        "content/Components/BiCloudMinusFill.razor",
+        "content/Components/BiCloudMoon.razor",
+        "content/Components/BiCloudMoonFill.razor",
+        "content/Components/BiCloudPlus.razor",
+        "content/Components/BiCloudPlusFill.razor",
+        "content/Components/BiCloudRain.razor",
+        "content/Components/BiCloudRainFill.razor",
+        "content/Components/BiCloudRainHeavy.razor",
+        "content/Components/BiCloudRainHeavyFill.razor",
+        "content/Components/BiCloudSlash.razor",
+        "content/Components/BiCloudSlashFill.razor",
+        "content/Components/BiCloudSleet.razor",
+        "content/Components/BiCloudSleetFill.razor",
+        "content/Components/BiCloudSnow.razor",
+        "content/Components/BiCloudSnowFill.razor",
+        "content/Components/BiCloudSun.razor",
+        "content/Components/BiCloudSunFill.razor",
+        "content/Components/BiCloudUpload.razor",
+        "content/Components/BiCloudUploadFill.razor",
+        "content/Components/BiClouds.razor",
+        "content/Components/BiCloudsFill.razor",
+        "content/Components/BiCloudy.razor",
+        "content/Components/BiCloudyFill.razor",
+        "content/Components/BiCode.razor",
+        "content/Components/BiCodeSlash.razor",
+        "content/Components/BiCodeSquare.razor",
+        "content/Components/BiCoin.razor",
+        "content/Components/BiCollection.razor",
+        "content/Components/BiCollectionFill.razor",
+        "content/Components/BiCollectionPlay.razor",
+        "content/Components/BiCollectionPlayFill.razor",
+        "content/Components/BiColumns.razor",
+        "content/Components/BiColumnsGap.razor",
+        "content/Components/BiCommand.razor",
+        "content/Components/BiCompass.razor",
+        "content/Components/BiCompassFill.razor",
+        "content/Components/BiCone.razor",
+        "content/Components/BiConeStriped.razor",
+        "content/Components/BiController.razor",
+        "content/Components/BiCookie.razor",
+        "content/Components/BiCopy.razor",
+        "content/Components/BiCpu.razor",
+        "content/Components/BiCpuFill.razor",
+        "content/Components/BiCreditCard.razor",
+        "content/Components/BiCreditCard2Back.razor",
+        "content/Components/BiCreditCard2BackFill.razor",
+        "content/Components/BiCreditCard2Front.razor",
+        "content/Components/BiCreditCard2FrontFill.razor",
+        "content/Components/BiCreditCardFill.razor",
+        "content/Components/BiCrop.razor",
+        "content/Components/BiCrosshair.razor",
+        "content/Components/BiCrosshair2.razor",
+        "content/Components/BiCup.razor",
+        "content/Components/BiCupFill.razor",
+        "content/Components/BiCupHot.razor",
+        "content/Components/BiCupHotFill.razor",
+        "content/Components/BiCupStraw.razor",
+        "content/Components/BiCurrencyBitcoin.razor",
+        "content/Components/BiCurrencyDollar.razor",
+        "content/Components/BiCurrencyEuro.razor",
+        "content/Components/BiCurrencyExchange.razor",
+        "content/Components/BiCurrencyPound.razor",
+        "content/Components/BiCurrencyRupee.razor",
+        "content/Components/BiCurrencyYen.razor",
+        "content/Components/BiCursor.razor",
+        "content/Components/BiCursorFill.razor",
+        "content/Components/BiCursorText.razor",
+        "content/Components/BiDash.razor",
+        "content/Components/BiDashCircle.razor",
+        "content/Components/BiDashCircleDotted.razor",
+        "content/Components/BiDashCircleFill.razor",
+        "content/Components/BiDashLg.razor",
+        "content/Components/BiDashSquare.razor",
+        "content/Components/BiDashSquareDotted.razor",
+        "content/Components/BiDashSquareFill.razor",
+        "content/Components/BiDatabase.razor",
+        "content/Components/BiDatabaseAdd.razor",
+        "content/Components/BiDatabaseCheck.razor",
+        "content/Components/BiDatabaseDash.razor",
+        "content/Components/BiDatabaseDown.razor",
+        "content/Components/BiDatabaseExclamation.razor",
+        "content/Components/BiDatabaseFill.razor",
+        "content/Components/BiDatabaseFillAdd.razor",
+        "content/Components/BiDatabaseFillCheck.razor",
+        "content/Components/BiDatabaseFillDash.razor",
+        "content/Components/BiDatabaseFillDown.razor",
+        "content/Components/BiDatabaseFillExclamation.razor",
+        "content/Components/BiDatabaseFillGear.razor",
+        "content/Components/BiDatabaseFillLock.razor",
+        "content/Components/BiDatabaseFillSlash.razor",
+        "content/Components/BiDatabaseFillUp.razor",
+        "content/Components/BiDatabaseFillX.razor",
+        "content/Components/BiDatabaseGear.razor",
+        "content/Components/BiDatabaseLock.razor",
+        "content/Components/BiDatabaseSlash.razor",
+        "content/Components/BiDatabaseUp.razor",
+        "content/Components/BiDatabaseX.razor",
+        "content/Components/BiDeviceHdd.razor",
+        "content/Components/BiDeviceHddFill.razor",
+        "content/Components/BiDeviceSsd.razor",
+        "content/Components/BiDeviceSsdFill.razor",
+        "content/Components/BiDiagram2.razor",
+        "content/Components/BiDiagram2Fill.razor",
+        "content/Components/BiDiagram3.razor",
+        "content/Components/BiDiagram3Fill.razor",
+        "content/Components/BiDiamond.razor",
+        "content/Components/BiDiamondFill.razor",
+        "content/Components/BiDiamondHalf.razor",
+        "content/Components/BiDice1.razor",
+        "content/Components/BiDice1Fill.razor",
+        "content/Components/BiDice2.razor",
+        "content/Components/BiDice2Fill.razor",
+        "content/Components/BiDice3.razor",
+        "content/Components/BiDice3Fill.razor",
+        "content/Components/BiDice4.razor",
+        "content/Components/BiDice4Fill.razor",
+        "content/Components/BiDice5.razor",
+        "content/Components/BiDice5Fill.razor",
+        "content/Components/BiDice6.razor",
+        "content/Components/BiDice6Fill.razor",
+        "content/Components/BiDisc.razor",
+        "content/Components/BiDiscFill.razor",
+        "content/Components/BiDiscord.razor",
+        "content/Components/BiDisplay.razor",
+        "content/Components/BiDisplayFill.razor",
+        "content/Components/BiDisplayport.razor",
+        "content/Components/BiDisplayportFill.razor",
+        "content/Components/BiDistributeHorizontal.razor",
+        "content/Components/BiDistributeVertical.razor",
+        "content/Components/BiDoorClosed.razor",
+        "content/Components/BiDoorClosedFill.razor",
+        "content/Components/BiDoorOpen.razor",
+        "content/Components/BiDoorOpenFill.razor",
+        "content/Components/BiDot.razor",
+        "content/Components/BiDownload.razor",
+        "content/Components/BiDpad.razor",
+        "content/Components/BiDpadFill.razor",
+        "content/Components/BiDribbble.razor",
+        "content/Components/BiDropbox.razor",
+        "content/Components/BiDroplet.razor",
+        "content/Components/BiDropletFill.razor",
+        "content/Components/BiDropletHalf.razor",
+        "content/Components/BiDuffle.razor",
+        "content/Components/BiDuffleFill.razor",
+        "content/Components/BiEar.razor",
+        "content/Components/BiEarFill.razor",
+        "content/Components/BiEarbuds.razor",
+        "content/Components/BiEasel.razor",
+        "content/Components/BiEasel2.razor",
+        "content/Components/BiEasel2Fill.razor",
+        "content/Components/BiEasel3.razor",
+        "content/Components/BiEasel3Fill.razor",
+        "content/Components/BiEaselFill.razor",
+        "content/Components/BiEgg.razor",
+        "content/Components/BiEggFill.razor",
+        "content/Components/BiEggFried.razor",
+        "content/Components/BiEject.razor",
+        "content/Components/BiEjectFill.razor",
+        "content/Components/BiEmojiAngry.razor",
+        "content/Components/BiEmojiAngryFill.razor",
+        "content/Components/BiEmojiAstonished.razor",
+        "content/Components/BiEmojiAstonishedFill.razor",
+        "content/Components/BiEmojiDizzy.razor",
+        "content/Components/BiEmojiDizzyFill.razor",
+        "content/Components/BiEmojiExpressionless.razor",
+        "content/Components/BiEmojiExpressionlessFill.razor",
+        "content/Components/BiEmojiFrown.razor",
+        "content/Components/BiEmojiFrownFill.razor",
+        "content/Components/BiEmojiGrimace.razor",
+        "content/Components/BiEmojiGrimaceFill.razor",
+        "content/Components/BiEmojiGrin.razor",
+        "content/Components/BiEmojiGrinFill.razor",
+        "content/Components/BiEmojiHeartEyes.razor",
+        "content/Components/BiEmojiHeartEyesFill.razor",
+        "content/Components/BiEmojiKiss.razor",
+        "content/Components/BiEmojiKissFill.razor",
+        "content/Components/BiEmojiLaughing.razor",
+        "content/Components/BiEmojiLaughingFill.razor",
+        "content/Components/BiEmojiNeutral.razor",
+        "content/Components/BiEmojiNeutralFill.razor",
+        "content/Components/BiEmojiSmile.razor",
+        "content/Components/BiEmojiSmileFill.razor",
+        "content/Components/BiEmojiSmileUpsideDown.razor",
+        "content/Components/BiEmojiSmileUpsideDownFill.razor",
+        "content/Components/BiEmojiSunglasses.razor",
+        "content/Components/BiEmojiSunglassesFill.razor",
+        "content/Components/BiEmojiSurprise.razor",
+        "content/Components/BiEmojiSurpriseFill.razor",
+        "content/Components/BiEmojiTear.razor",
+        "content/Components/BiEmojiTearFill.razor",
+        "content/Components/BiEmojiWink.razor",
+        "content/Components/BiEmojiWinkFill.razor",
+        "content/Components/BiEnvelope.razor",
+        "content/Components/BiEnvelopeArrowDown.razor",
+        "content/Components/BiEnvelopeArrowDownFill.razor",
+        "content/Components/BiEnvelopeArrowUp.razor",
+        "content/Components/BiEnvelopeArrowUpFill.razor",
+        "content/Components/BiEnvelopeAt.razor",
+        "content/Components/BiEnvelopeAtFill.razor",
+        "content/Components/BiEnvelopeCheck.razor",
+        "content/Components/BiEnvelopeCheckFill.razor",
+        "content/Components/BiEnvelopeDash.razor",
+        "content/Components/BiEnvelopeDashFill.razor",
+        "content/Components/BiEnvelopeExclamation.razor",
+        "content/Components/BiEnvelopeExclamationFill.razor",
+        "content/Components/BiEnvelopeFill.razor",
+        "content/Components/BiEnvelopeHeart.razor",
+        "content/Components/BiEnvelopeHeartFill.razor",
+        "content/Components/BiEnvelopeOpen.razor",
+        "content/Components/BiEnvelopeOpenFill.razor",
+        "content/Components/BiEnvelopeOpenHeart.razor",
+        "content/Components/BiEnvelopeOpenHeartFill.razor",
+        "content/Components/BiEnvelopePaper.razor",
+        "content/Components/BiEnvelopePaperFill.razor",
+        "content/Components/BiEnvelopePaperHeart.razor",
+        "content/Components/BiEnvelopePaperHeartFill.razor",
+        "content/Components/BiEnvelopePlus.razor",
+        "content/Components/BiEnvelopePlusFill.razor",
+        "content/Components/BiEnvelopeSlash.razor",
+        "content/Components/BiEnvelopeSlashFill.razor",
+        "content/Components/BiEnvelopeX.razor",
+        "content/Components/BiEnvelopeXFill.razor",
+        "content/Components/BiEraser.razor",
+        "content/Components/BiEraserFill.razor",
+        "content/Components/BiEscape.razor",
+        "content/Components/BiEthernet.razor",
+        "content/Components/BiEvFront.razor",
+        "content/Components/BiEvFrontFill.razor",
+        "content/Components/BiEvStation.razor",
+        "content/Components/BiEvStationFill.razor",
+        "content/Components/BiExclamation.razor",
+        "content/Components/BiExclamationCircle.razor",
+        "content/Components/BiExclamationCircleFill.razor",
+        "content/Components/BiExclamationDiamond.razor",
+        "content/Components/BiExclamationDiamondFill.razor",
+        "content/Components/BiExclamationLg.razor",
+        "content/Components/BiExclamationOctagon.razor",
+        "content/Components/BiExclamationOctagonFill.razor",
+        "content/Components/BiExclamationSquare.razor",
+        "content/Components/BiExclamationSquareFill.razor",
+        "content/Components/BiExclamationTriangle.razor",
+        "content/Components/BiExclamationTriangleFill.razor",
+        "content/Components/BiExclude.razor",
+        "content/Components/BiExplicit.razor",
+        "content/Components/BiExplicitFill.razor",
+        "content/Components/BiExposure.razor",
+        "content/Components/BiEye.razor",
+        "content/Components/BiEyeFill.razor",
+        "content/Components/BiEyeSlash.razor",
+        "content/Components/BiEyeSlashFill.razor",
+        "content/Components/BiEyedropper.razor",
+        "content/Components/BiEyeglasses.razor",
+        "content/Components/BiFacebook.razor",
+        "content/Components/BiFan.razor",
+        "content/Components/BiFastForward.razor",
+        "content/Components/BiFastForwardBtn.razor",
+        "content/Components/BiFastForwardBtnFill.razor",
+        "content/Components/BiFastForwardCircle.razor",
+        "content/Components/BiFastForwardCircleFill.razor",
+        "content/Components/BiFastForwardFill.razor",
+        "content/Components/BiFeather.razor",
+        "content/Components/BiFeather2.razor",
+        "content/Components/BiFile.razor",
+        "content/Components/BiFileArrowDown.razor",
+        "content/Components/BiFileArrowDownFill.razor",
+        "content/Components/BiFileArrowUp.razor",
+        "content/Components/BiFileArrowUpFill.razor",
+        "content/Components/BiFileBarGraph.razor",
+        "content/Components/BiFileBarGraphFill.razor",
+        "content/Components/BiFileBinary.razor",
+        "content/Components/BiFileBinaryFill.razor",
+        "content/Components/BiFileBreak.razor",
+        "content/Components/BiFileBreakFill.razor",
+        "content/Components/BiFileCheck.razor",
+        "content/Components/BiFileCheckFill.razor",
+        "content/Components/BiFileCode.razor",
+        "content/Components/BiFileCodeFill.razor",
+        "content/Components/BiFileDiff.razor",
+        "content/Components/BiFileDiffFill.razor",
+        "content/Components/BiFileEarmark.razor",
+        "content/Components/BiFileEarmarkArrowDown.razor",
+        "content/Components/BiFileEarmarkArrowDownFill.razor",
+        "content/Components/BiFileEarmarkArrowUp.razor",
+        "content/Components/BiFileEarmarkArrowUpFill.razor",
+        "content/Components/BiFileEarmarkBarGraph.razor",
+        "content/Components/BiFileEarmarkBarGraphFill.razor",
+        "content/Components/BiFileEarmarkBinary.razor",
+        "content/Components/BiFileEarmarkBinaryFill.razor",
+        "content/Components/BiFileEarmarkBreak.razor",
+        "content/Components/BiFileEarmarkBreakFill.razor",
+        "content/Components/BiFileEarmarkCheck.razor",
+        "content/Components/BiFileEarmarkCheckFill.razor",
+        "content/Components/BiFileEarmarkCode.razor",
+        "content/Components/BiFileEarmarkCodeFill.razor",
+        "content/Components/BiFileEarmarkDiff.razor",
+        "content/Components/BiFileEarmarkDiffFill.razor",
+        "content/Components/BiFileEarmarkEasel.razor",
+        "content/Components/BiFileEarmarkEaselFill.razor",
+        "content/Components/BiFileEarmarkExcel.razor",
+        "content/Components/BiFileEarmarkExcelFill.razor",
+        "content/Components/BiFileEarmarkFill.razor",
+        "content/Components/BiFileEarmarkFont.razor",
+        "content/Components/BiFileEarmarkFontFill.razor",
+        "content/Components/BiFileEarmarkImage.razor",
+        "content/Components/BiFileEarmarkImageFill.razor",
+        "content/Components/BiFileEarmarkLock.razor",
+        "content/Components/BiFileEarmarkLock2.razor",
+        "content/Components/BiFileEarmarkLock2Fill.razor",
+        "content/Components/BiFileEarmarkLockFill.razor",
+        "content/Components/BiFileEarmarkMedical.razor",
+        "content/Components/BiFileEarmarkMedicalFill.razor",
+        "content/Components/BiFileEarmarkMinus.razor",
+        "content/Components/BiFileEarmarkMinusFill.razor",
+        "content/Components/BiFileEarmarkMusic.razor",
+        "content/Components/BiFileEarmarkMusicFill.razor",
+        "content/Components/BiFileEarmarkPdf.razor",
+        "content/Components/BiFileEarmarkPdfFill.razor",
+        "content/Components/BiFileEarmarkPerson.razor",
+        "content/Components/BiFileEarmarkPersonFill.razor",
+        "content/Components/BiFileEarmarkPlay.razor",
+        "content/Components/BiFileEarmarkPlayFill.razor",
+        "content/Components/BiFileEarmarkPlus.razor",
+        "content/Components/BiFileEarmarkPlusFill.razor",
+        "content/Components/BiFileEarmarkPost.razor",
+        "content/Components/BiFileEarmarkPostFill.razor",
+        "content/Components/BiFileEarmarkPpt.razor",
+        "content/Components/BiFileEarmarkPptFill.razor",
+        "content/Components/BiFileEarmarkRichtext.razor",
+        "content/Components/BiFileEarmarkRichtextFill.razor",
+        "content/Components/BiFileEarmarkRuled.razor",
+        "content/Components/BiFileEarmarkRuledFill.razor",
+        "content/Components/BiFileEarmarkSlides.razor",
+        "content/Components/BiFileEarmarkSlidesFill.razor",
+        "content/Components/BiFileEarmarkSpreadsheet.razor",
+        "content/Components/BiFileEarmarkSpreadsheetFill.razor",
+        "content/Components/BiFileEarmarkText.razor",
+        "content/Components/BiFileEarmarkTextFill.razor",
+        "content/Components/BiFileEarmarkWord.razor",
+        "content/Components/BiFileEarmarkWordFill.razor",
+        "content/Components/BiFileEarmarkX.razor",
+        "content/Components/BiFileEarmarkXFill.razor",
+        "content/Components/BiFileEarmarkZip.razor",
+        "content/Components/BiFileEarmarkZipFill.razor",
+        "content/Components/BiFileEasel.razor",
+        "content/Components/BiFileEaselFill.razor",
+        "content/Components/BiFileExcel.razor",
+        "content/Components/BiFileExcelFill.razor",
+        "content/Components/BiFileFill.razor",
+        "content/Components/BiFileFont.razor",
+        "content/Components/BiFileFontFill.razor",
+        "content/Components/BiFileImage.razor",
+        "content/Components/BiFileImageFill.razor",
+        "content/Components/BiFileLock.razor",
+        "content/Components/BiFileLock2.razor",
+        "content/Components/BiFileLock2Fill.razor",
+        "content/Components/BiFileLockFill.razor",
+        "content/Components/BiFileMedical.razor",
+        "content/Components/BiFileMedicalFill.razor",
+        "content/Components/BiFileMinus.razor",
+        "content/Components/BiFileMinusFill.razor",
+        "content/Components/BiFileMusic.razor",
+        "content/Components/BiFileMusicFill.razor",
+        "content/Components/BiFilePdf.razor",
+        "content/Components/BiFilePdfFill.razor",
+        "content/Components/BiFilePerson.razor",
+        "content/Components/BiFilePersonFill.razor",
+        "content/Components/BiFilePlay.razor",
+        "content/Components/BiFilePlayFill.razor",
+        "content/Components/BiFilePlus.razor",
+        "content/Components/BiFilePlusFill.razor",
+        "content/Components/BiFilePost.razor",
+        "content/Components/BiFilePostFill.razor",
+        "content/Components/BiFilePpt.razor",
+        "content/Components/BiFilePptFill.razor",
+        "content/Components/BiFileRichtext.razor",
+        "content/Components/BiFileRichtextFill.razor",
+        "content/Components/BiFileRuled.razor",
+        "content/Components/BiFileRuledFill.razor",
+        "content/Components/BiFileSlides.razor",
+        "content/Components/BiFileSlidesFill.razor",
+        "content/Components/BiFileSpreadsheet.razor",
+        "content/Components/BiFileSpreadsheetFill.razor",
+        "content/Components/BiFileText.razor",
+        "content/Components/BiFileTextFill.razor",
+        "content/Components/BiFileWord.razor",
+        "content/Components/BiFileWordFill.razor",
+        "content/Components/BiFileX.razor",
+        "content/Components/BiFileXFill.razor",
+        "content/Components/BiFileZip.razor",
+        "content/Components/BiFileZipFill.razor",
+        "content/Components/BiFiles.razor",
+        "content/Components/BiFilesAlt.razor",
+        "content/Components/BiFiletypeAac.razor",
+        "content/Components/BiFiletypeAi.razor",
+        "content/Components/BiFiletypeBmp.razor",
+        "content/Components/BiFiletypeCs.razor",
+        "content/Components/BiFiletypeCss.razor",
+        "content/Components/BiFiletypeCsv.razor",
+        "content/Components/BiFiletypeDoc.razor",
+        "content/Components/BiFiletypeDocx.razor",
+        "content/Components/BiFiletypeExe.razor",
+        "content/Components/BiFiletypeGif.razor",
+        "content/Components/BiFiletypeHeic.razor",
+        "content/Components/BiFiletypeHtml.razor",
+        "content/Components/BiFiletypeJava.razor",
+        "content/Components/BiFiletypeJpg.razor",
+        "content/Components/BiFiletypeJs.razor",
+        "content/Components/BiFiletypeJson.razor",
+        "content/Components/BiFiletypeJsx.razor",
+        "content/Components/BiFiletypeKey.razor",
+        "content/Components/BiFiletypeM4p.razor",
+        "content/Components/BiFiletypeMd.razor",
+        "content/Components/BiFiletypeMdx.razor",
+        "content/Components/BiFiletypeMov.razor",
+        "content/Components/BiFiletypeMp3.razor",
+        "content/Components/BiFiletypeMp4.razor",
+        "content/Components/BiFiletypeOtf.razor",
+        "content/Components/BiFiletypePdf.razor",
+        "content/Components/BiFiletypePhp.razor",
+        "content/Components/BiFiletypePng.razor",
+        "content/Components/BiFiletypePpt.razor",
+        "content/Components/BiFiletypePptx.razor",
+        "content/Components/BiFiletypePsd.razor",
+        "content/Components/BiFiletypePy.razor",
+        "content/Components/BiFiletypeRaw.razor",
+        "content/Components/BiFiletypeRb.razor",
+        "content/Components/BiFiletypeSass.razor",
+        "content/Components/BiFiletypeScss.razor",
+        "content/Components/BiFiletypeSh.razor",
+        "content/Components/BiFiletypeSql.razor",
+        "content/Components/BiFiletypeSvg.razor",
+        "content/Components/BiFiletypeTiff.razor",
+        "content/Components/BiFiletypeTsx.razor",
+        "content/Components/BiFiletypeTtf.razor",
+        "content/Components/BiFiletypeTxt.razor",
+        "content/Components/BiFiletypeWav.razor",
+        "content/Components/BiFiletypeWoff.razor",
+        "content/Components/BiFiletypeXls.razor",
+        "content/Components/BiFiletypeXlsx.razor",
+        "content/Components/BiFiletypeXml.razor",
+        "content/Components/BiFiletypeYml.razor",
+        "content/Components/BiFilm.razor",
+        "content/Components/BiFilter.razor",
+        "content/Components/BiFilterCircle.razor",
+        "content/Components/BiFilterCircleFill.razor",
+        "content/Components/BiFilterLeft.razor",
+        "content/Components/BiFilterRight.razor",
+        "content/Components/BiFilterSquare.razor",
+        "content/Components/BiFilterSquareFill.razor",
+        "content/Components/BiFingerprint.razor",
+        "content/Components/BiFire.razor",
+        "content/Components/BiFlag.razor",
+        "content/Components/BiFlagFill.razor",
+        "content/Components/BiFloppy.razor",
+        "content/Components/BiFloppy2.razor",
+        "content/Components/BiFloppy2Fill.razor",
+        "content/Components/BiFloppyFill.razor",
+        "content/Components/BiFlower1.razor",
+        "content/Components/BiFlower2.razor",
+        "content/Components/BiFlower3.razor",
+        "content/Components/BiFolder.razor",
+        "content/Components/BiFolder2.razor",
+        "content/Components/BiFolder2Open.razor",
+        "content/Components/BiFolderCheck.razor",
+        "content/Components/BiFolderFill.razor",
+        "content/Components/BiFolderMinus.razor",
+        "content/Components/BiFolderPlus.razor",
+        "content/Components/BiFolderSymlink.razor",
+        "content/Components/BiFolderSymlinkFill.razor",
+        "content/Components/BiFolderX.razor",
+        "content/Components/BiFonts.razor",
+        "content/Components/BiForward.razor",
+        "content/Components/BiForwardFill.razor",
+        "content/Components/BiFront.razor",
+        "content/Components/BiFuelPump.razor",
+        "content/Components/BiFuelPumpDiesel.razor",
+        "content/Components/BiFuelPumpDieselFill.razor",
+        "content/Components/BiFuelPumpFill.razor",
+        "content/Components/BiFullscreen.razor",
+        "content/Components/BiFullscreenExit.razor",
+        "content/Components/BiFunnel.razor",
+        "content/Components/BiFunnelFill.razor",
+        "content/Components/BiGear.razor",
+        "content/Components/BiGearFill.razor",
+        "content/Components/BiGearWide.razor",
+        "content/Components/BiGearWideConnected.razor",
+        "content/Components/BiGem.razor",
+        "content/Components/BiGenderAmbiguous.razor",
+        "content/Components/BiGenderFemale.razor",
+        "content/Components/BiGenderMale.razor",
+        "content/Components/BiGenderNeuter.razor",
+        "content/Components/BiGenderTrans.razor",
+        "content/Components/BiGeo.razor",
+        "content/Components/BiGeoAlt.razor",
+        "content/Components/BiGeoAltFill.razor",
+        "content/Components/BiGeoFill.razor",
+        "content/Components/BiGift.razor",
+        "content/Components/BiGiftFill.razor",
+        "content/Components/BiGit.razor",
+        "content/Components/BiGithub.razor",
+        "content/Components/BiGitlab.razor",
+        "content/Components/BiGlobe.razor",
+        "content/Components/BiGlobe2.razor",
+        "content/Components/BiGlobeAmericas.razor",
+        "content/Components/BiGlobeAsiaAustralia.razor",
+        "content/Components/BiGlobeCentralSouthAsia.razor",
+        "content/Components/BiGlobeEuropeAfrica.razor",
+        "content/Components/BiGoogle.razor",
+        "content/Components/BiGooglePlay.razor",
+        "content/Components/BiGpuCard.razor",
+        "content/Components/BiGraphDown.razor",
+        "content/Components/BiGraphDownArrow.razor",
+        "content/Components/BiGraphUp.razor",
+        "content/Components/BiGraphUpArrow.razor",
+        "content/Components/BiGrid.razor",
+        "content/Components/BiGrid1x2.razor",
+        "content/Components/BiGrid1x2Fill.razor",
+        "content/Components/BiGrid3x2.razor",
+        "content/Components/BiGrid3x2Gap.razor",
+        "content/Components/BiGrid3x2GapFill.razor",
+        "content/Components/BiGrid3x3.razor",
+        "content/Components/BiGrid3x3Gap.razor",
+        "content/Components/BiGrid3x3GapFill.razor",
+        "content/Components/BiGridFill.razor",
+        "content/Components/BiGripHorizontal.razor",
+        "content/Components/BiGripVertical.razor",
+        "content/Components/BiHCircle.razor",
+        "content/Components/BiHCircleFill.razor",
+        "content/Components/BiHSquare.razor",
+        "content/Components/BiHSquareFill.razor",
+        "content/Components/BiHammer.razor",
+        "content/Components/BiHandIndex.razor",
+        "content/Components/BiHandIndexFill.razor",
+        "content/Components/BiHandIndexThumb.razor",
+        "content/Components/BiHandIndexThumbFill.razor",
+        "content/Components/BiHandThumbsDown.razor",
+        "content/Components/BiHandThumbsDownFill.razor",
+        "content/Components/BiHandThumbsUp.razor",
+        "content/Components/BiHandThumbsUpFill.razor",
+        "content/Components/BiHandbag.razor",
+        "content/Components/BiHandbagFill.razor",
+        "content/Components/BiHash.razor",
+        "content/Components/BiHdd.razor",
+        "content/Components/BiHddFill.razor",
+        "content/Components/BiHddNetwork.razor",
+        "content/Components/BiHddNetworkFill.razor",
+        "content/Components/BiHddRack.razor",
+        "content/Components/BiHddRackFill.razor",
+        "content/Components/BiHddStack.razor",
+        "content/Components/BiHddStackFill.razor",
+        "content/Components/BiHdmi.razor",
+        "content/Components/BiHdmiFill.razor",
+        "content/Components/BiHeadphones.razor",
+        "content/Components/BiHeadset.razor",
+        "content/Components/BiHeadsetVr.razor",
+        "content/Components/BiHeart.razor",
+        "content/Components/BiHeartArrow.razor",
+        "content/Components/BiHeartFill.razor",
+        "content/Components/BiHeartHalf.razor",
+        "content/Components/BiHeartPulse.razor",
+        "content/Components/BiHeartPulseFill.razor",
+        "content/Components/BiHeartbreak.razor",
+        "content/Components/BiHeartbreakFill.razor",
+        "content/Components/BiHearts.razor",
+        "content/Components/BiHeptagon.razor",
+        "content/Components/BiHeptagonFill.razor",
+        "content/Components/BiHeptagonHalf.razor",
+        "content/Components/BiHexagon.razor",
+        "content/Components/BiHexagonFill.razor",
+        "content/Components/BiHexagonHalf.razor",
+        "content/Components/BiHighlighter.razor",
+        "content/Components/BiHighlights.razor",
+        "content/Components/BiHospital.razor",
+        "content/Components/BiHospitalFill.razor",
+        "content/Components/BiHourglass.razor",
+        "content/Components/BiHourglassBottom.razor",
+        "content/Components/BiHourglassSplit.razor",
+        "content/Components/BiHourglassTop.razor",
+        "content/Components/BiHouse.razor",
+        "content/Components/BiHouseAdd.razor",
+        "content/Components/BiHouseAddFill.razor",
+        "content/Components/BiHouseCheck.razor",
+        "content/Components/BiHouseCheckFill.razor",
+        "content/Components/BiHouseDash.razor",
+        "content/Components/BiHouseDashFill.razor",
+        "content/Components/BiHouseDoor.razor",
+        "content/Components/BiHouseDoorFill.razor",
+        "content/Components/BiHouseDown.razor",
+        "content/Components/BiHouseDownFill.razor",
+        "content/Components/BiHouseExclamation.razor",
+        "content/Components/BiHouseExclamationFill.razor",
+        "content/Components/BiHouseFill.razor",
+        "content/Components/BiHouseGear.razor",
+        "content/Components/BiHouseGearFill.razor",
+        "content/Components/BiHouseHeart.razor",
+        "content/Components/BiHouseHeartFill.razor",
+        "content/Components/BiHouseLock.razor",
+        "content/Components/BiHouseLockFill.razor",
+        "content/Components/BiHouseSlash.razor",
+        "content/Components/BiHouseSlashFill.razor",
+        "content/Components/BiHouseUp.razor",
+        "content/Components/BiHouseUpFill.razor",
+        "content/Components/BiHouseX.razor",
+        "content/Components/BiHouseXFill.razor",
+        "content/Components/BiHouses.razor",
+        "content/Components/BiHousesFill.razor",
+        "content/Components/BiHr.razor",
+        "content/Components/BiHurricane.razor",
+        "content/Components/BiHypnotize.razor",
+        "content/Components/BiImage.razor",
+        "content/Components/BiImageAlt.razor",
+        "content/Components/BiImageFill.razor",
+        "content/Components/BiImages.razor",
+        "content/Components/BiInbox.razor",
+        "content/Components/BiInboxFill.razor",
+        "content/Components/BiInboxes.razor",
+        "content/Components/BiInboxesFill.razor",
+        "content/Components/BiIncognito.razor",
+        "content/Components/BiIndent.razor",
+        "content/Components/BiInfinity.razor",
+        "content/Components/BiInfo.razor",
+        "content/Components/BiInfoCircle.razor",
+        "content/Components/BiInfoCircleFill.razor",
+        "content/Components/BiInfoLg.razor",
+        "content/Components/BiInfoSquare.razor",
+        "content/Components/BiInfoSquareFill.razor",
+        "content/Components/BiInputCursor.razor",
+        "content/Components/BiInputCursorText.razor",
+        "content/Components/BiInstagram.razor",
+        "content/Components/BiIntersect.razor",
+        "content/Components/BiJournal.razor",
+        "content/Components/BiJournalAlbum.razor",
+        "content/Components/BiJournalArrowDown.razor",
+        "content/Components/BiJournalArrowUp.razor",
+        "content/Components/BiJournalBookmark.razor",
+        "content/Components/BiJournalBookmarkFill.razor",
+        "content/Components/BiJournalCheck.razor",
+        "content/Components/BiJournalCode.razor",
+        "content/Components/BiJournalMedical.razor",
+        "content/Components/BiJournalMinus.razor",
+        "content/Components/BiJournalPlus.razor",
+        "content/Components/BiJournalRichtext.razor",
+        "content/Components/BiJournalText.razor",
+        "content/Components/BiJournalX.razor",
+        "content/Components/BiJournals.razor",
+        "content/Components/BiJoystick.razor",
+        "content/Components/BiJustify.razor",
+        "content/Components/BiJustifyLeft.razor",
+        "content/Components/BiJustifyRight.razor",
+        "content/Components/BiKanban.razor",
+        "content/Components/BiKanbanFill.razor",
+        "content/Components/BiKey.razor",
+        "content/Components/BiKeyFill.razor",
+        "content/Components/BiKeyboard.razor",
+        "content/Components/BiKeyboardFill.razor",
+        "content/Components/BiLadder.razor",
+        "content/Components/BiLamp.razor",
+        "content/Components/BiLampFill.razor",
+        "content/Components/BiLaptop.razor",
+        "content/Components/BiLaptopFill.razor",
+        "content/Components/BiLayerBackward.razor",
+        "content/Components/BiLayerForward.razor",
+        "content/Components/BiLayers.razor",
+        "content/Components/BiLayersFill.razor",
+        "content/Components/BiLayersHalf.razor",
+        "content/Components/BiLayoutSidebar.razor",
+        "content/Components/BiLayoutSidebarInset.razor",
+        "content/Components/BiLayoutSidebarInsetReverse.razor",
+        "content/Components/BiLayoutSidebarReverse.razor",
+        "content/Components/BiLayoutSplit.razor",
+        "content/Components/BiLayoutTextSidebar.razor",
+        "content/Components/BiLayoutTextSidebarReverse.razor",
+        "content/Components/BiLayoutTextWindow.razor",
+        "content/Components/BiLayoutTextWindowReverse.razor",
+        "content/Components/BiLayoutThreeColumns.razor",
+        "content/Components/BiLayoutWtf.razor",
+        "content/Components/BiLifePreserver.razor",
+        "content/Components/BiLightbulb.razor",
+        "content/Components/BiLightbulbFill.razor",
+        "content/Components/BiLightbulbOff.razor",
+        "content/Components/BiLightbulbOffFill.razor",
+        "content/Components/BiLightning.razor",
+        "content/Components/BiLightningCharge.razor",
+        "content/Components/BiLightningChargeFill.razor",
+        "content/Components/BiLightningFill.razor",
+        "content/Components/BiLine.razor",
+        "content/Components/BiLink.razor",
+        "content/Components/BiLink45deg.razor",
+        "content/Components/BiLinkedin.razor",
+        "content/Components/BiList.razor",
+        "content/Components/BiListCheck.razor",
+        "content/Components/BiListColumns.razor",
+        "content/Components/BiListColumnsReverse.razor",
+        "content/Components/BiListNested.razor",
+        "content/Components/BiListOl.razor",
+        "content/Components/BiListStars.razor",
+        "content/Components/BiListTask.razor",
+        "content/Components/BiListUl.razor",
+        "content/Components/BiLock.razor",
+        "content/Components/BiLockFill.razor",
+        "content/Components/BiLuggage.razor",
+        "content/Components/BiLuggageFill.razor",
+        "content/Components/BiLungs.razor",
+        "content/Components/BiLungsFill.razor",
+        "content/Components/BiMagic.razor",
+        "content/Components/BiMagnet.razor",
+        "content/Components/BiMagnetFill.razor",
+        "content/Components/BiMailbox.razor",
+        "content/Components/BiMailbox2.razor",
+        "content/Components/BiMailbox2Flag.razor",
+        "content/Components/BiMailboxFlag.razor",
+        "content/Components/BiMap.razor",
+        "content/Components/BiMapFill.razor",
+        "content/Components/BiMarkdown.razor",
+        "content/Components/BiMarkdownFill.razor",
+        "content/Components/BiMarkerTip.razor",
+        "content/Components/BiMask.razor",
+        "content/Components/BiMastodon.razor",
+        "content/Components/BiMedium.razor",
+        "content/Components/BiMegaphone.razor",
+        "content/Components/BiMegaphoneFill.razor",
+        "content/Components/BiMemory.razor",
+        "content/Components/BiMenuApp.razor",
+        "content/Components/BiMenuAppFill.razor",
+        "content/Components/BiMenuButton.razor",
+        "content/Components/BiMenuButtonFill.razor",
+        "content/Components/BiMenuButtonWide.razor",
+        "content/Components/BiMenuButtonWideFill.razor",
+        "content/Components/BiMenuDown.razor",
+        "content/Components/BiMenuUp.razor",
+        "content/Components/BiMessenger.razor",
+        "content/Components/BiMeta.razor",
+        "content/Components/BiMic.razor",
+        "content/Components/BiMicFill.razor",
+        "content/Components/BiMicMute.razor",
+        "content/Components/BiMicMuteFill.razor",
+        "content/Components/BiMicrosoft.razor",
+        "content/Components/BiMicrosoftTeams.razor",
+        "content/Components/BiMinecart.razor",
+        "content/Components/BiMinecartLoaded.razor",
+        "content/Components/BiModem.razor",
+        "content/Components/BiModemFill.razor",
+        "content/Components/BiMoisture.razor",
+        "content/Components/BiMoon.razor",
+        "content/Components/BiMoonFill.razor",
+        "content/Components/BiMoonStars.razor",
+        "content/Components/BiMoonStarsFill.razor",
+        "content/Components/BiMortarboard.razor",
+        "content/Components/BiMortarboardFill.razor",
+        "content/Components/BiMotherboard.razor",
+        "content/Components/BiMotherboardFill.razor",
+        "content/Components/BiMouse.razor",
+        "content/Components/BiMouse2.razor",
+        "content/Components/BiMouse2Fill.razor",
+        "content/Components/BiMouse3.razor",
+        "content/Components/BiMouse3Fill.razor",
+        "content/Components/BiMouseFill.razor",
+        "content/Components/BiMusicNote.razor",
+        "content/Components/BiMusicNoteBeamed.razor",
+        "content/Components/BiMusicNoteList.razor",
+        "content/Components/BiMusicPlayer.razor",
+        "content/Components/BiMusicPlayerFill.razor",
+        "content/Components/BiNewspaper.razor",
+        "content/Components/BiNintendoSwitch.razor",
+        "content/Components/BiNodeMinus.razor",
+        "content/Components/BiNodeMinusFill.razor",
+        "content/Components/BiNodePlus.razor",
+        "content/Components/BiNodePlusFill.razor",
+        "content/Components/BiNoiseReduction.razor",
+        "content/Components/BiNut.razor",
+        "content/Components/BiNutFill.razor",
+        "content/Components/BiNvidia.razor",
+        "content/Components/BiNvme.razor",
+        "content/Components/BiNvmeFill.razor",
+        "content/Components/BiOctagon.razor",
+        "content/Components/BiOctagonFill.razor",
+        "content/Components/BiOctagonHalf.razor",
+        "content/Components/BiOpencollective.razor",
+        "content/Components/BiOpticalAudio.razor",
+        "content/Components/BiOpticalAudioFill.razor",
+        "content/Components/BiOption.razor",
+        "content/Components/BiOutlet.razor",
+        "content/Components/BiPCircle.razor",
+        "content/Components/BiPCircleFill.razor",
+        "content/Components/BiPSquare.razor",
+        "content/Components/BiPSquareFill.razor",
+        "content/Components/BiPaintBucket.razor",
+        "content/Components/BiPalette.razor",
+        "content/Components/BiPalette2.razor",
+        "content/Components/BiPaletteFill.razor",
+        "content/Components/BiPaperclip.razor",
+        "content/Components/BiParagraph.razor",
+        "content/Components/BiPass.razor",
+        "content/Components/BiPassFill.razor",
+        "content/Components/BiPassport.razor",
+        "content/Components/BiPassportFill.razor",
+        "content/Components/BiPatchCheck.razor",
+        "content/Components/BiPatchCheckFill.razor",
+        "content/Components/BiPatchExclamation.razor",
+        "content/Components/BiPatchExclamationFill.razor",
+        "content/Components/BiPatchMinus.razor",
+        "content/Components/BiPatchMinusFill.razor",
+        "content/Components/BiPatchPlus.razor",
+        "content/Components/BiPatchPlusFill.razor",
+        "content/Components/BiPatchQuestion.razor",
+        "content/Components/BiPatchQuestionFill.razor",
+        "content/Components/BiPause.razor",
+        "content/Components/BiPauseBtn.razor",
+        "content/Components/BiPauseBtnFill.razor",
+        "content/Components/BiPauseCircle.razor",
+        "content/Components/BiPauseCircleFill.razor",
+        "content/Components/BiPauseFill.razor",
+        "content/Components/BiPaypal.razor",
+        "content/Components/BiPc.razor",
+        "content/Components/BiPcDisplay.razor",
+        "content/Components/BiPcDisplayHorizontal.razor",
+        "content/Components/BiPcHorizontal.razor",
+        "content/Components/BiPciCard.razor",
+        "content/Components/BiPciCardNetwork.razor",
+        "content/Components/BiPciCardSound.razor",
+        "content/Components/BiPeace.razor",
+        "content/Components/BiPeaceFill.razor",
+        "content/Components/BiPen.razor",
+        "content/Components/BiPenFill.razor",
+        "content/Components/BiPencil.razor",
+        "content/Components/BiPencilFill.razor",
+        "content/Components/BiPencilSquare.razor",
+        "content/Components/BiPentagon.razor",
+        "content/Components/BiPentagonFill.razor",
+        "content/Components/BiPentagonHalf.razor",
+        "content/Components/BiPeople.razor",
+        "content/Components/BiPeopleFill.razor",
+        "content/Components/BiPercent.razor",
+        "content/Components/BiPerson.razor",
+        "content/Components/BiPersonAdd.razor",
+        "content/Components/BiPersonArmsUp.razor",
+        "content/Components/BiPersonBadge.razor",
+        "content/Components/BiPersonBadgeFill.razor",
+        "content/Components/BiPersonBoundingBox.razor",
+        "content/Components/BiPersonCheck.razor",
+        "content/Components/BiPersonCheckFill.razor",
+        "content/Components/BiPersonCircle.razor",
+        "content/Components/BiPersonDash.razor",
+        "content/Components/BiPersonDashFill.razor",
+        "content/Components/BiPersonDown.razor",
+        "content/Components/BiPersonExclamation.razor",
+        "content/Components/BiPersonFill.razor",
+        "content/Components/BiPersonFillAdd.razor",
+        "content/Components/BiPersonFillCheck.razor",
+        "content/Components/BiPersonFillDash.razor",
+        "content/Components/BiPersonFillDown.razor",
+        "content/Components/BiPersonFillExclamation.razor",
+        "content/Components/BiPersonFillGear.razor",
+        "content/Components/BiPersonFillLock.razor",
+        "content/Components/BiPersonFillSlash.razor",
+        "content/Components/BiPersonFillUp.razor",
+        "content/Components/BiPersonFillX.razor",
+        "content/Components/BiPersonGear.razor",
+        "content/Components/BiPersonHeart.razor",
+        "content/Components/BiPersonHearts.razor",
+        "content/Components/BiPersonLinesFill.razor",
+        "content/Components/BiPersonLock.razor",
+        "content/Components/BiPersonPlus.razor",
+        "content/Components/BiPersonPlusFill.razor",
+        "content/Components/BiPersonRaisedHand.razor",
+        "content/Components/BiPersonRolodex.razor",
+        "content/Components/BiPersonSlash.razor",
+        "content/Components/BiPersonSquare.razor",
+        "content/Components/BiPersonStanding.razor",
+        "content/Components/BiPersonStandingDress.razor",
+        "content/Components/BiPersonUp.razor",
+        "content/Components/BiPersonVcard.razor",
+        "content/Components/BiPersonVcardFill.razor",
+        "content/Components/BiPersonVideo.razor",
+        "content/Components/BiPersonVideo2.razor",
+        "content/Components/BiPersonVideo3.razor",
+        "content/Components/BiPersonWalking.razor",
+        "content/Components/BiPersonWheelchair.razor",
+        "content/Components/BiPersonWorkspace.razor",
+        "content/Components/BiPersonX.razor",
+        "content/Components/BiPersonXFill.razor",
+        "content/Components/BiPhone.razor",
+        "content/Components/BiPhoneFill.razor",
+        "content/Components/BiPhoneFlip.razor",
+        "content/Components/BiPhoneLandscape.razor",
+        "content/Components/BiPhoneLandscapeFill.razor",
+        "content/Components/BiPhoneVibrate.razor",
+        "content/Components/BiPhoneVibrateFill.razor",
+        "content/Components/BiPieChart.razor",
+        "content/Components/BiPieChartFill.razor",
+        "content/Components/BiPiggyBank.razor",
+        "content/Components/BiPiggyBankFill.razor",
+        "content/Components/BiPin.razor",
+        "content/Components/BiPinAngle.razor",
+        "content/Components/BiPinAngleFill.razor",
+        "content/Components/BiPinFill.razor",
+        "content/Components/BiPinMap.razor",
+        "content/Components/BiPinMapFill.razor",
+        "content/Components/BiPinterest.razor",
+        "content/Components/BiPip.razor",
+        "content/Components/BiPipFill.razor",
+        "content/Components/BiPlay.razor",
+        "content/Components/BiPlayBtn.razor",
+        "content/Components/BiPlayBtnFill.razor",
+        "content/Components/BiPlayCircle.razor",
+        "content/Components/BiPlayCircleFill.razor",
+        "content/Components/BiPlayFill.razor",
+        "content/Components/BiPlaystation.razor",
+        "content/Components/BiPlug.razor",
+        "content/Components/BiPlugFill.razor",
+        "content/Components/BiPlugin.razor",
+        "content/Components/BiPlus.razor",
+        "content/Components/BiPlusCircle.razor",
+        "content/Components/BiPlusCircleDotted.razor",
+        "content/Components/BiPlusCircleFill.razor",
+        "content/Components/BiPlusLg.razor",
+        "content/Components/BiPlusSlashMinus.razor",
+        "content/Components/BiPlusSquare.razor",
+        "content/Components/BiPlusSquareDotted.razor",
+        "content/Components/BiPlusSquareFill.razor",
+        "content/Components/BiPostage.razor",
+        "content/Components/BiPostageFill.razor",
+        "content/Components/BiPostageHeart.razor",
+        "content/Components/BiPostageHeartFill.razor",
+        "content/Components/BiPostcard.razor",
+        "content/Components/BiPostcardFill.razor",
+        "content/Components/BiPostcardHeart.razor",
+        "content/Components/BiPostcardHeartFill.razor",
+        "content/Components/BiPower.razor",
+        "content/Components/BiPrescription.razor",
+        "content/Components/BiPrescription2.razor",
+        "content/Components/BiPrinter.razor",
+        "content/Components/BiPrinterFill.razor",
+        "content/Components/BiProjector.razor",
+        "content/Components/BiProjectorFill.razor",
+        "content/Components/BiPuzzle.razor",
+        "content/Components/BiPuzzleFill.razor",
+        "content/Components/BiQrCode.razor",
+        "content/Components/BiQrCodeScan.razor",
+        "content/Components/BiQuestion.razor",
+        "content/Components/BiQuestionCircle.razor",
+        "content/Components/BiQuestionCircleFill.razor",
+        "content/Components/BiQuestionDiamond.razor",
+        "content/Components/BiQuestionDiamondFill.razor",
+        "content/Components/BiQuestionLg.razor",
+        "content/Components/BiQuestionOctagon.razor",
+        "content/Components/BiQuestionOctagonFill.razor",
+        "content/Components/BiQuestionSquare.razor",
+        "content/Components/BiQuestionSquareFill.razor",
+        "content/Components/BiQuora.razor",
+        "content/Components/BiQuote.razor",
+        "content/Components/BiRCircle.razor",
+        "content/Components/BiRCircleFill.razor",
+        "content/Components/BiRSquare.razor",
+        "content/Components/BiRSquareFill.razor",
+        "content/Components/BiRadar.razor",
+        "content/Components/BiRadioactive.razor",
+        "content/Components/BiRainbow.razor",
+        "content/Components/BiReceipt.razor",
+        "content/Components/BiReceiptCutoff.razor",
+        "content/Components/BiReception0.razor",
+        "content/Components/BiReception1.razor",
+        "content/Components/BiReception2.razor",
+        "content/Components/BiReception3.razor",
+        "content/Components/BiReception4.razor",
+        "content/Components/BiRecord.razor",
+        "content/Components/BiRecord2.razor",
+        "content/Components/BiRecord2Fill.razor",
+        "content/Components/BiRecordBtn.razor",
+        "content/Components/BiRecordBtnFill.razor",
+        "content/Components/BiRecordCircle.razor",
+        "content/Components/BiRecordCircleFill.razor",
+        "content/Components/BiRecordFill.razor",
+        "content/Components/BiRecycle.razor",
+        "content/Components/BiReddit.razor",
+        "content/Components/BiRegex.razor",
+        "content/Components/BiRepeat.razor",
+        "content/Components/BiRepeat1.razor",
+        "content/Components/BiReply.razor",
+        "content/Components/BiReplyAll.razor",
+        "content/Components/BiReplyAllFill.razor",
+        "content/Components/BiReplyFill.razor",
+        "content/Components/BiRewind.razor",
+        "content/Components/BiRewindBtn.razor",
+        "content/Components/BiRewindBtnFill.razor",
+        "content/Components/BiRewindCircle.razor",
+        "content/Components/BiRewindCircleFill.razor",
+        "content/Components/BiRewindFill.razor",
+        "content/Components/BiRobot.razor",
+        "content/Components/BiRocket.razor",
+        "content/Components/BiRocketFill.razor",
+        "content/Components/BiRocketTakeoff.razor",
+        "content/Components/BiRocketTakeoffFill.razor",
+        "content/Components/BiRouter.razor",
+        "content/Components/BiRouterFill.razor",
+        "content/Components/BiRss.razor",
+        "content/Components/BiRssFill.razor",
+        "content/Components/BiRulers.razor",
+        "content/Components/BiSafe.razor",
+        "content/Components/BiSafe2.razor",
+        "content/Components/BiSafe2Fill.razor",
+        "content/Components/BiSafeFill.razor",
+        "content/Components/BiSave.razor",
+        "content/Components/BiSave2.razor",
+        "content/Components/BiSave2Fill.razor",
+        "content/Components/BiSaveFill.razor",
+        "content/Components/BiScissors.razor",
+        "content/Components/BiScooter.razor",
+        "content/Components/BiScrewdriver.razor",
+        "content/Components/BiSdCard.razor",
+        "content/Components/BiSdCardFill.razor",
+        "content/Components/BiSearch.razor",
+        "content/Components/BiSearchHeart.razor",
+        "content/Components/BiSearchHeartFill.razor",
+        "content/Components/BiSegmentedNav.razor",
+        "content/Components/BiSend.razor",
+        "content/Components/BiSendArrowDown.razor",
+        "content/Components/BiSendArrowDownFill.razor",
+        "content/Components/BiSendArrowUp.razor",
+        "content/Components/BiSendArrowUpFill.razor",
+        "content/Components/BiSendCheck.razor",
+        "content/Components/BiSendCheckFill.razor",
+        "content/Components/BiSendDash.razor",
+        "content/Components/BiSendDashFill.razor",
+        "content/Components/BiSendExclamation.razor",
+        "content/Components/BiSendExclamationFill.razor",
+        "content/Components/BiSendFill.razor",
+        "content/Components/BiSendPlus.razor",
+        "content/Components/BiSendPlusFill.razor",
+        "content/Components/BiSendSlash.razor",
+        "content/Components/BiSendSlashFill.razor",
+        "content/Components/BiSendX.razor",
+        "content/Components/BiSendXFill.razor",
+        "content/Components/BiServer.razor",
+        "content/Components/BiShadows.razor",
+        "content/Components/BiShare.razor",
+        "content/Components/BiShareFill.razor",
+        "content/Components/BiShield.razor",
+        "content/Components/BiShieldCheck.razor",
+        "content/Components/BiShieldExclamation.razor",
+        "content/Components/BiShieldFill.razor",
+        "content/Components/BiShieldFillCheck.razor",
+        "content/Components/BiShieldFillExclamation.razor",
+        "content/Components/BiShieldFillMinus.razor",
+        "content/Components/BiShieldFillPlus.razor",
+        "content/Components/BiShieldFillX.razor",
+        "content/Components/BiShieldLock.razor",
+        "content/Components/BiShieldLockFill.razor",
+        "content/Components/BiShieldMinus.razor",
+        "content/Components/BiShieldPlus.razor",
+        "content/Components/BiShieldShaded.razor",
+        "content/Components/BiShieldSlash.razor",
+        "content/Components/BiShieldSlashFill.razor",
+        "content/Components/BiShieldX.razor",
+        "content/Components/BiShift.razor",
+        "content/Components/BiShiftFill.razor",
+        "content/Components/BiShop.razor",
+        "content/Components/BiShopWindow.razor",
+        "content/Components/BiShuffle.razor",
+        "content/Components/BiSignDeadEnd.razor",
+        "content/Components/BiSignDeadEndFill.razor",
+        "content/Components/BiSignDoNotEnter.razor",
+        "content/Components/BiSignDoNotEnterFill.razor",
+        "content/Components/BiSignIntersection.razor",
+        "content/Components/BiSignIntersectionFill.razor",
+        "content/Components/BiSignIntersectionSide.razor",
+        "content/Components/BiSignIntersectionSideFill.razor",
+        "content/Components/BiSignIntersectionT.razor",
+        "content/Components/BiSignIntersectionTFill.razor",
+        "content/Components/BiSignIntersectionY.razor",
+        "content/Components/BiSignIntersectionYFill.razor",
+        "content/Components/BiSignMergeLeft.razor",
+        "content/Components/BiSignMergeLeftFill.razor",
+        "content/Components/BiSignMergeRight.razor",
+        "content/Components/BiSignMergeRightFill.razor",
+        "content/Components/BiSignNoLeftTurn.razor",
+        "content/Components/BiSignNoLeftTurnFill.razor",
+        "content/Components/BiSignNoParking.razor",
+        "content/Components/BiSignNoParkingFill.razor",
+        "content/Components/BiSignNoRightTurn.razor",
+        "content/Components/BiSignNoRightTurnFill.razor",
+        "content/Components/BiSignRailroad.razor",
+        "content/Components/BiSignRailroadFill.razor",
+        "content/Components/BiSignStop.razor",
+        "content/Components/BiSignStopFill.razor",
+        "content/Components/BiSignStopLights.razor",
+        "content/Components/BiSignStopLightsFill.razor",
+        "content/Components/BiSignTurnLeft.razor",
+        "content/Components/BiSignTurnLeftFill.razor",
+        "content/Components/BiSignTurnRight.razor",
+        "content/Components/BiSignTurnRightFill.razor",
+        "content/Components/BiSignTurnSlightLeft.razor",
+        "content/Components/BiSignTurnSlightLeftFill.razor",
+        "content/Components/BiSignTurnSlightRight.razor",
+        "content/Components/BiSignTurnSlightRightFill.razor",
+        "content/Components/BiSignYield.razor",
+        "content/Components/BiSignYieldFill.razor",
+        "content/Components/BiSignal.razor",
+        "content/Components/BiSignpost.razor",
+        "content/Components/BiSignpost2.razor",
+        "content/Components/BiSignpost2Fill.razor",
+        "content/Components/BiSignpostFill.razor",
+        "content/Components/BiSignpostSplit.razor",
+        "content/Components/BiSignpostSplitFill.razor",
+        "content/Components/BiSim.razor",
+        "content/Components/BiSimFill.razor",
+        "content/Components/BiSimSlash.razor",
+        "content/Components/BiSimSlashFill.razor",
+        "content/Components/BiSinaWeibo.razor",
+        "content/Components/BiSkipBackward.razor",
+        "content/Components/BiSkipBackwardBtn.razor",
+        "content/Components/BiSkipBackwardBtnFill.razor",
+        "content/Components/BiSkipBackwardCircle.razor",
+        "content/Components/BiSkipBackwardCircleFill.razor",
+        "content/Components/BiSkipBackwardFill.razor",
+        "content/Components/BiSkipEnd.razor",
+        "content/Components/BiSkipEndBtn.razor",
+        "content/Components/BiSkipEndBtnFill.razor",
+        "content/Components/BiSkipEndCircle.razor",
+        "content/Components/BiSkipEndCircleFill.razor",
+        "content/Components/BiSkipEndFill.razor",
+        "content/Components/BiSkipForward.razor",
+        "content/Components/BiSkipForwardBtn.razor",
+        "content/Components/BiSkipForwardBtnFill.razor",
+        "content/Components/BiSkipForwardCircle.razor",
+        "content/Components/BiSkipForwardCircleFill.razor",
+        "content/Components/BiSkipForwardFill.razor",
+        "content/Components/BiSkipStart.razor",
+        "content/Components/BiSkipStartBtn.razor",
+        "content/Components/BiSkipStartBtnFill.razor",
+        "content/Components/BiSkipStartCircle.razor",
+        "content/Components/BiSkipStartCircleFill.razor",
+        "content/Components/BiSkipStartFill.razor",
+        "content/Components/BiSkype.razor",
+        "content/Components/BiSlack.razor",
+        "content/Components/BiSlash.razor",
+        "content/Components/BiSlashCircle.razor",
+        "content/Components/BiSlashCircleFill.razor",
+        "content/Components/BiSlashLg.razor",
+        "content/Components/BiSlashSquare.razor",
+        "content/Components/BiSlashSquareFill.razor",
+        "content/Components/BiSliders.razor",
+        "content/Components/BiSliders2.razor",
+        "content/Components/BiSliders2Vertical.razor",
+        "content/Components/BiSmartwatch.razor",
+        "content/Components/BiSnapchat.razor",
+        "content/Components/BiSnow.razor",
+        "content/Components/BiSnow2.razor",
+        "content/Components/BiSnow3.razor",
+        "content/Components/BiSortAlphaDown.razor",
+        "content/Components/BiSortAlphaDownAlt.razor",
+        "content/Components/BiSortAlphaUp.razor",
+        "content/Components/BiSortAlphaUpAlt.razor",
+        "content/Components/BiSortDown.razor",
+        "content/Components/BiSortDownAlt.razor",
+        "content/Components/BiSortNumericDown.razor",
+        "content/Components/BiSortNumericDownAlt.razor",
+        "content/Components/BiSortNumericUp.razor",
+        "content/Components/BiSortNumericUpAlt.razor",
+        "content/Components/BiSortUp.razor",
+        "content/Components/BiSortUpAlt.razor",
+        "content/Components/BiSoundwave.razor",
+        "content/Components/BiSourceforge.razor",
+        "content/Components/BiSpeaker.razor",
+        "content/Components/BiSpeakerFill.razor",
+        "content/Components/BiSpeedometer.razor",
+        "content/Components/BiSpeedometer2.razor",
+        "content/Components/BiSpellcheck.razor",
+        "content/Components/BiSpotify.razor",
+        "content/Components/BiSquare.razor",
+        "content/Components/BiSquareFill.razor",
+        "content/Components/BiSquareHalf.razor",
+        "content/Components/BiStack.razor",
+        "content/Components/BiStackOverflow.razor",
+        "content/Components/BiStar.razor",
+        "content/Components/BiStarFill.razor",
+        "content/Components/BiStarHalf.razor",
+        "content/Components/BiStars.razor",
+        "content/Components/BiSteam.razor",
+        "content/Components/BiStickies.razor",
+        "content/Components/BiStickiesFill.razor",
+        "content/Components/BiSticky.razor",
+        "content/Components/BiStickyFill.razor",
+        "content/Components/BiStop.razor",
+        "content/Components/BiStopBtn.razor",
+        "content/Components/BiStopBtnFill.razor",
+        "content/Components/BiStopCircle.razor",
+        "content/Components/BiStopCircleFill.razor",
+        "content/Components/BiStopFill.razor",
+        "content/Components/BiStoplights.razor",
+        "content/Components/BiStoplightsFill.razor",
+        "content/Components/BiStopwatch.razor",
+        "content/Components/BiStopwatchFill.razor",
+        "content/Components/BiStrava.razor",
+        "content/Components/BiStripe.razor",
+        "content/Components/BiSubscript.razor",
+        "content/Components/BiSubstack.razor",
+        "content/Components/BiSubtract.razor",
+        "content/Components/BiSuitClub.razor",
+        "content/Components/BiSuitClubFill.razor",
+        "content/Components/BiSuitDiamond.razor",
+        "content/Components/BiSuitDiamondFill.razor",
+        "content/Components/BiSuitHeart.razor",
+        "content/Components/BiSuitHeartFill.razor",
+        "content/Components/BiSuitSpade.razor",
+        "content/Components/BiSuitSpadeFill.razor",
+        "content/Components/BiSuitcase.razor",
+        "content/Components/BiSuitcase2.razor",
+        "content/Components/BiSuitcase2Fill.razor",
+        "content/Components/BiSuitcaseFill.razor",
+        "content/Components/BiSuitcaseLg.razor",
+        "content/Components/BiSuitcaseLgFill.razor",
+        "content/Components/BiSun.razor",
+        "content/Components/BiSunFill.razor",
+        "content/Components/BiSunglasses.razor",
+        "content/Components/BiSunrise.razor",
+        "content/Components/BiSunriseFill.razor",
+        "content/Components/BiSunset.razor",
+        "content/Components/BiSunsetFill.razor",
+        "content/Components/BiSuperscript.razor",
+        "content/Components/BiSymmetryHorizontal.razor",
+        "content/Components/BiSymmetryVertical.razor",
+        "content/Components/BiTable.razor",
+        "content/Components/BiTablet.razor",
+        "content/Components/BiTabletFill.razor",
+        "content/Components/BiTabletLandscape.razor",
+        "content/Components/BiTabletLandscapeFill.razor",
+        "content/Components/BiTag.razor",
+        "content/Components/BiTagFill.razor",
+        "content/Components/BiTags.razor",
+        "content/Components/BiTagsFill.razor",
+        "content/Components/BiTaxiFront.razor",
+        "content/Components/BiTaxiFrontFill.razor",
+        "content/Components/BiTelegram.razor",
+        "content/Components/BiTelephone.razor",
+        "content/Components/BiTelephoneFill.razor",
+        "content/Components/BiTelephoneForward.razor",
+        "content/Components/BiTelephoneForwardFill.razor",
+        "content/Components/BiTelephoneInbound.razor",
+        "content/Components/BiTelephoneInboundFill.razor",
+        "content/Components/BiTelephoneMinus.razor",
+        "content/Components/BiTelephoneMinusFill.razor",
+        "content/Components/BiTelephoneOutbound.razor",
+        "content/Components/BiTelephoneOutboundFill.razor",
+        "content/Components/BiTelephonePlus.razor",
+        "content/Components/BiTelephonePlusFill.razor",
+        "content/Components/BiTelephoneX.razor",
+        "content/Components/BiTelephoneXFill.razor",
+        "content/Components/BiTencentQq.razor",
+        "content/Components/BiTerminal.razor",
+        "content/Components/BiTerminalDash.razor",
+        "content/Components/BiTerminalFill.razor",
+        "content/Components/BiTerminalPlus.razor",
+        "content/Components/BiTerminalSplit.razor",
+        "content/Components/BiTerminalX.razor",
+        "content/Components/BiTextCenter.razor",
+        "content/Components/BiTextIndentLeft.razor",
+        "content/Components/BiTextIndentRight.razor",
+        "content/Components/BiTextLeft.razor",
+        "content/Components/BiTextParagraph.razor",
+        "content/Components/BiTextRight.razor",
+        "content/Components/BiTextWrap.razor",
+        "content/Components/BiTextarea.razor",
+        "content/Components/BiTextareaResize.razor",
+        "content/Components/BiTextareaT.razor",
+        "content/Components/BiThermometer.razor",
+        "content/Components/BiThermometerHalf.razor",
+        "content/Components/BiThermometerHigh.razor",
+        "content/Components/BiThermometerLow.razor",
+        "content/Components/BiThermometerSnow.razor",
+        "content/Components/BiThermometerSun.razor",
+        "content/Components/BiThreads.razor",
+        "content/Components/BiThreadsFill.razor",
+        "content/Components/BiThreeDots.razor",
+        "content/Components/BiThreeDotsVertical.razor",
+        "content/Components/BiThunderbolt.razor",
+        "content/Components/BiThunderboltFill.razor",
+        "content/Components/BiTicket.razor",
+        "content/Components/BiTicketDetailed.razor",
+        "content/Components/BiTicketDetailedFill.razor",
+        "content/Components/BiTicketFill.razor",
+        "content/Components/BiTicketPerforated.razor",
+        "content/Components/BiTicketPerforatedFill.razor",
+        "content/Components/BiTiktok.razor",
+        "content/Components/BiToggle2Off.razor",
+        "content/Components/BiToggle2On.razor",
+        "content/Components/BiToggleOff.razor",
+        "content/Components/BiToggleOn.razor",
+        "content/Components/BiToggles.razor",
+        "content/Components/BiToggles2.razor",
+        "content/Components/BiTools.razor",
+        "content/Components/BiTornado.razor",
+        "content/Components/BiTrainFreightFront.razor",
+        "content/Components/BiTrainFreightFrontFill.razor",
+        "content/Components/BiTrainFront.razor",
+        "content/Components/BiTrainFrontFill.razor",
+        "content/Components/BiTrainLightrailFront.razor",
+        "content/Components/BiTrainLightrailFrontFill.razor",
+        "content/Components/BiTranslate.razor",
+        "content/Components/BiTransparency.razor",
+        "content/Components/BiTrash.razor",
+        "content/Components/BiTrash2.razor",
+        "content/Components/BiTrash2Fill.razor",
+        "content/Components/BiTrash3.razor",
+        "content/Components/BiTrash3Fill.razor",
+        "content/Components/BiTrashFill.razor",
+        "content/Components/BiTree.razor",
+        "content/Components/BiTreeFill.razor",
+        "content/Components/BiTrello.razor",
+        "content/Components/BiTriangle.razor",
+        "content/Components/BiTriangleFill.razor",
+        "content/Components/BiTriangleHalf.razor",
+        "content/Components/BiTrophy.razor",
+        "content/Components/BiTrophyFill.razor",
+        "content/Components/BiTropicalStorm.razor",
+        "content/Components/BiTruck.razor",
+        "content/Components/BiTruckFlatbed.razor",
+        "content/Components/BiTruckFront.razor",
+        "content/Components/BiTruckFrontFill.razor",
+        "content/Components/BiTsunami.razor",
+        "content/Components/BiTv.razor",
+        "content/Components/BiTvFill.razor",
+        "content/Components/BiTwitch.razor",
+        "content/Components/BiTwitter.razor",
+        "content/Components/BiTwitterX.razor",
+        "content/Components/BiType.razor",
+        "content/Components/BiTypeBold.razor",
+        "content/Components/BiTypeH1.razor",
+        "content/Components/BiTypeH2.razor",
+        "content/Components/BiTypeH3.razor",
+        "content/Components/BiTypeH4.razor",
+        "content/Components/BiTypeH5.razor",
+        "content/Components/BiTypeH6.razor",
+        "content/Components/BiTypeItalic.razor",
+        "content/Components/BiTypeStrikethrough.razor",
+        "content/Components/BiTypeUnderline.razor",
+        "content/Components/BiUbuntu.razor",
+        "content/Components/BiUiChecks.razor",
+        "content/Components/BiUiChecksGrid.razor",
+        "content/Components/BiUiRadios.razor",
+        "content/Components/BiUiRadiosGrid.razor",
+        "content/Components/BiUmbrella.razor",
+        "content/Components/BiUmbrellaFill.razor",
+        "content/Components/BiUnindent.razor",
+        "content/Components/BiUnion.razor",
+        "content/Components/BiUnity.razor",
+        "content/Components/BiUniversalAccess.razor",
+        "content/Components/BiUniversalAccessCircle.razor",
+        "content/Components/BiUnlock.razor",
+        "content/Components/BiUnlockFill.razor",
+        "content/Components/BiUpc.razor",
+        "content/Components/BiUpcScan.razor",
+        "content/Components/BiUpload.razor",
+        "content/Components/BiUsb.razor",
+        "content/Components/BiUsbC.razor",
+        "content/Components/BiUsbCFill.razor",
+        "content/Components/BiUsbDrive.razor",
+        "content/Components/BiUsbDriveFill.razor",
+        "content/Components/BiUsbFill.razor",
+        "content/Components/BiUsbMicro.razor",
+        "content/Components/BiUsbMicroFill.razor",
+        "content/Components/BiUsbMini.razor",
+        "content/Components/BiUsbMiniFill.razor",
+        "content/Components/BiUsbPlug.razor",
+        "content/Components/BiUsbPlugFill.razor",
+        "content/Components/BiUsbSymbol.razor",
+        "content/Components/BiValentine.razor",
+        "content/Components/BiValentine2.razor",
+        "content/Components/BiVectorPen.razor",
+        "content/Components/BiViewList.razor",
+        "content/Components/BiViewStacked.razor",
+        "content/Components/BiVignette.razor",
+        "content/Components/BiVimeo.razor",
+        "content/Components/BiVinyl.razor",
+        "content/Components/BiVinylFill.razor",
+        "content/Components/BiVirus.razor",
+        "content/Components/BiVirus2.razor",
+        "content/Components/BiVoicemail.razor",
+        "content/Components/BiVolumeDown.razor",
+        "content/Components/BiVolumeDownFill.razor",
+        "content/Components/BiVolumeMute.razor",
+        "content/Components/BiVolumeMuteFill.razor",
+        "content/Components/BiVolumeOff.razor",
+        "content/Components/BiVolumeOffFill.razor",
+        "content/Components/BiVolumeUp.razor",
+        "content/Components/BiVolumeUpFill.razor",
+        "content/Components/BiVr.razor",
+        "content/Components/BiWallet.razor",
+        "content/Components/BiWallet2.razor",
+        "content/Components/BiWalletFill.razor",
+        "content/Components/BiWatch.razor",
+        "content/Components/BiWater.razor",
+        "content/Components/BiWebcam.razor",
+        "content/Components/BiWebcamFill.razor",
+        "content/Components/BiWechat.razor",
+        "content/Components/BiWhatsapp.razor",
+        "content/Components/BiWifi.razor",
+        "content/Components/BiWifi1.razor",
+        "content/Components/BiWifi2.razor",
+        "content/Components/BiWifiOff.razor",
+        "content/Components/BiWikipedia.razor",
+        "content/Components/BiWind.razor",
+        "content/Components/BiWindow.razor",
+        "content/Components/BiWindowDash.razor",
+        "content/Components/BiWindowDesktop.razor",
+        "content/Components/BiWindowDock.razor",
+        "content/Components/BiWindowFullscreen.razor",
+        "content/Components/BiWindowPlus.razor",
+        "content/Components/BiWindowSidebar.razor",
+        "content/Components/BiWindowSplit.razor",
+        "content/Components/BiWindowStack.razor",
+        "content/Components/BiWindowX.razor",
+        "content/Components/BiWindows.razor",
+        "content/Components/BiWordpress.razor",
+        "content/Components/BiWrench.razor",
+        "content/Components/BiWrenchAdjustable.razor",
+        "content/Components/BiWrenchAdjustableCircle.razor",
+        "content/Components/BiWrenchAdjustableCircleFill.razor",
+        "content/Components/BiX.razor",
+        "content/Components/BiXCircle.razor",
+        "content/Components/BiXCircleFill.razor",
+        "content/Components/BiXDiamond.razor",
+        "content/Components/BiXDiamondFill.razor",
+        "content/Components/BiXLg.razor",
+        "content/Components/BiXOctagon.razor",
+        "content/Components/BiXOctagonFill.razor",
+        "content/Components/BiXSquare.razor",
+        "content/Components/BiXSquareFill.razor",
+        "content/Components/BiXbox.razor",
+        "content/Components/BiYelp.razor",
+        "content/Components/BiYinYang.razor",
+        "content/Components/BiYoutube.razor",
+        "content/Components/BiZoomIn.razor",
+        "content/Components/BiZoomOut.razor",
+        "lib/net8.0/Blazor.Bootstrap.Icons.dll",
+        "logo.png"
+      ]
+    },
+    "Blazored.LocalStorage/4.5.0": {
+      "sha512": "6nZuJwA7zNIKx83IsObiHXZb09ponJOpCClU3en+hI8ZFvrOKXeOw+H7TegQZQrvdR1n9fkrVkEBQZg8vx6ZTw==",
+      "type": "package",
+      "path": "blazored.localstorage/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "blazored.localstorage.4.5.0.nupkg.sha512",
+        "blazored.localstorage.nuspec",
+        "icon.png",
+        "lib/net6.0/Blazored.LocalStorage.dll",
+        "lib/net7.0/Blazored.LocalStorage.dll",
+        "lib/net8.0/Blazored.LocalStorage.dll"
+      ]
+    },
+    "bootstrap/5.3.2": {
+      "sha512": "m0/GEaLwE35B8P1xScFhwAsQi5o6kWPzOVPdGkoFwv+5YjmbgXFPQai71N5APwRCU52ZO4vHYWJ5DYSqKKgivw==",
+      "type": "package",
+      "path": "bootstrap/5.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bootstrap.5.3.2.nupkg.sha512",
+        "bootstrap.nuspec",
+        "bootstrap.png",
+        "content/Content/bootstrap-grid.css",
+        "content/Content/bootstrap-grid.css.map",
+        "content/Content/bootstrap-grid.min.css",
+        "content/Content/bootstrap-grid.min.css.map",
+        "content/Content/bootstrap-grid.rtl.css",
+        "content/Content/bootstrap-grid.rtl.css.map",
+        "content/Content/bootstrap-grid.rtl.min.css",
+        "content/Content/bootstrap-grid.rtl.min.css.map",
+        "content/Content/bootstrap-reboot.css",
+        "content/Content/bootstrap-reboot.css.map",
+        "content/Content/bootstrap-reboot.min.css",
+        "content/Content/bootstrap-reboot.min.css.map",
+        "content/Content/bootstrap-reboot.rtl.css",
+        "content/Content/bootstrap-reboot.rtl.css.map",
+        "content/Content/bootstrap-reboot.rtl.min.css",
+        "content/Content/bootstrap-reboot.rtl.min.css.map",
+        "content/Content/bootstrap-utilities.css",
+        "content/Content/bootstrap-utilities.css.map",
+        "content/Content/bootstrap-utilities.min.css",
+        "content/Content/bootstrap-utilities.min.css.map",
+        "content/Content/bootstrap-utilities.rtl.css",
+        "content/Content/bootstrap-utilities.rtl.css.map",
+        "content/Content/bootstrap-utilities.rtl.min.css",
+        "content/Content/bootstrap-utilities.rtl.min.css.map",
+        "content/Content/bootstrap.css",
+        "content/Content/bootstrap.css.map",
+        "content/Content/bootstrap.min.css",
+        "content/Content/bootstrap.min.css.map",
+        "content/Content/bootstrap.rtl.css",
+        "content/Content/bootstrap.rtl.css.map",
+        "content/Content/bootstrap.rtl.min.css",
+        "content/Content/bootstrap.rtl.min.css.map",
+        "content/Scripts/bootstrap.bundle.js",
+        "content/Scripts/bootstrap.bundle.js.map",
+        "content/Scripts/bootstrap.bundle.min.js",
+        "content/Scripts/bootstrap.bundle.min.js.map",
+        "content/Scripts/bootstrap.esm.js",
+        "content/Scripts/bootstrap.esm.js.map",
+        "content/Scripts/bootstrap.esm.min.js",
+        "content/Scripts/bootstrap.esm.min.js.map",
+        "content/Scripts/bootstrap.js",
+        "content/Scripts/bootstrap.js.map",
+        "content/Scripts/bootstrap.min.js",
+        "content/Scripts/bootstrap.min.js.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-grid.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-grid.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap.min.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap.min.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap.rtl.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap.rtl.css.map",
+        "contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css",
+        "contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css.map",
+        "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js",
+        "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js.map",
+        "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js",
+        "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js.map",
+        "contentFiles/any/any/wwwroot/js/bootstrap.esm.js",
+        "contentFiles/any/any/wwwroot/js/bootstrap.esm.js.map",
+        "contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js",
+        "contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js.map",
+        "contentFiles/any/any/wwwroot/js/bootstrap.js",
+        "contentFiles/any/any/wwwroot/js/bootstrap.js.map",
+        "contentFiles/any/any/wwwroot/js/bootstrap.min.js",
+        "contentFiles/any/any/wwwroot/js/bootstrap.min.js.map"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/8.0.13": {
       "sha512": "cMdPz2hFN8fjEdUBelItljBrsbiz2eVspV5W5bee9c6OT4ChgprnHe7BKXYc3Wwzhxo/ls9XxcLuXZrfVCIT6Q==",
       "type": "package",
@@ -991,6 +4374,21 @@
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "microsoft.aspnetcore.components.analyzers.8.0.13.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Authorization/8.0.0": {
+      "sha512": "GlaNfvmRQAmXMrNlJcQJcB/K8ptShc121sQdqc82Yigd6d7lMVbMKI/P+rNr1ReEhPgMQNd66uh1INF9QlxI6Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.authorization/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net8.0/Microsoft.AspNetCore.Components.Authorization.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Components.Authorization.xml",
+        "microsoft.aspnetcore.components.authorization.8.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.components.authorization.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Components.Forms/8.0.13": {
@@ -1226,6 +4624,75 @@
         "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "type": "package",
+      "path": "microsoft.csharp/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "Microsoft.Extensions.Configuration/8.0.0": {
       "sha512": "0J/9YNXTMWSZP2p2+nvl8p71zpSwokZXZuJW+VjdErkegAnFdO1XlqtA62SJtgVYHdKu3uPxJHcMR/r35HwFBA==",
       "type": "package",
@@ -1453,6 +4920,64 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Diagnostics/8.0.0": {
+      "sha512": "3PZp/YSkIXrF7QK7PfC1bkyRYwqOHpWFad8Qx+4wkuumAeXo1NHaxpS9LboNA9OvNSAu+QOVlXbMyoY+pHSqcw==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Diagnostics.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Diagnostics.targets",
+        "lib/net462/Microsoft.Extensions.Diagnostics.dll",
+        "lib/net462/Microsoft.Extensions.Diagnostics.xml",
+        "lib/net6.0/Microsoft.Extensions.Diagnostics.dll",
+        "lib/net6.0/Microsoft.Extensions.Diagnostics.xml",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.dll",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.xml",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.dll",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.xml",
+        "microsoft.extensions.diagnostics.8.0.0.nupkg.sha512",
+        "microsoft.extensions.diagnostics.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Diagnostics.Abstractions/8.0.0": {
+      "sha512": "JHYCQG7HmugNYUhOl368g+NMxYE/N/AiclCYRNlgCY9eVyiBkOHMwK4x60RYMxv9EL3+rmj1mqHvdCiPpC+D4Q==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Diagnostics.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Diagnostics.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Diagnostics.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Diagnostics.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.Abstractions.xml",
+        "microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.diagnostics.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
       "sha512": "ZbaMlhJlpisjuWbvXr4LdAst/1XxH3vZ6A0BsgTphZ2L4PGuxRLz7Jr/S7mkAAnOn78Vu0fKhEgNF5JO3zfjqQ==",
       "type": "package",
@@ -1538,6 +5063,36 @@
         "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
         "microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
         "microsoft.extensions.filesystemglobbing.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Http/8.0.0": {
+      "sha512": "cWz4caHwvx0emoYe7NkHPxII/KkTI8R/LC9qdqJqnKv2poTJ4e2qqPGQqvRoQ5kaSA4FU5IV3qFAuLuOhoqULQ==",
+      "type": "package",
+      "path": "microsoft.extensions.http/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Http.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Http.targets",
+        "lib/net462/Microsoft.Extensions.Http.dll",
+        "lib/net462/Microsoft.Extensions.Http.xml",
+        "lib/net6.0/Microsoft.Extensions.Http.dll",
+        "lib/net6.0/Microsoft.Extensions.Http.xml",
+        "lib/net7.0/Microsoft.Extensions.Http.dll",
+        "lib/net7.0/Microsoft.Extensions.Http.xml",
+        "lib/net8.0/Microsoft.Extensions.Http.dll",
+        "lib/net8.0/Microsoft.Extensions.Http.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Http.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Http.xml",
+        "microsoft.extensions.http.8.0.0.nupkg.sha512",
+        "microsoft.extensions.http.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -1693,6 +5248,36 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+      "sha512": "0f4DMRqEd50zQh+UyJc+/HiBsZ3vhAQALgdkcQEalSH1L2isdC7Yj54M3cyo5e+BeO5fcBQ7Dxly8XiBBcvRgw==",
+      "type": "package",
+      "path": "microsoft.extensions.options.configurationextensions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Options.ConfigurationExtensions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Options.ConfigurationExtensions.targets",
+        "lib/net462/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net462/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.options.configurationextensions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.Extensions.Primitives/8.0.0": {
       "sha512": "bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
       "type": "package",
@@ -1721,6 +5306,98 @@
         "microsoft.extensions.primitives.8.0.0.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.IdentityModel.Abstractions/8.0.0": {
+      "sha512": "MjLnmBdt5uyDLTsW+tjMQLnNw5iBKeK+cJYVyPyvCSRVN1gF5Xdu7fZ0hHQl0e7ReaeFGVlL20sx9eKInxKkIQ==",
+      "type": "package",
+      "path": "microsoft.identitymodel.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net462/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net472/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net472/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net8.0/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net9.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net9.0/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.xml",
+        "microsoft.identitymodel.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.identitymodel.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/8.0.0": {
+      "sha512": "QgbntXMwsrTOoNw0lZmmVCaw+o92vETUJRNN0NQF1M57HUvxyd0fTWPGDk9KCctAtzm81vYHu/ief7i5lJl9GQ==",
+      "type": "package",
+      "path": "microsoft.identitymodel.jsonwebtokens/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net462/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net472/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net472/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net9.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "microsoft.identitymodel.jsonwebtokens.8.0.0.nupkg.sha512",
+        "microsoft.identitymodel.jsonwebtokens.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Logging/8.0.0": {
+      "sha512": "bLqpdwrwN9D/INjst8L2a9p0GI8E8SXGJjRYQu6vmEpjnDf6SoVAphEtCVNsyh44iDrT5oVxv9/hkXH7JaezCA==",
+      "type": "package",
+      "path": "microsoft.identitymodel.logging/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/Microsoft.IdentityModel.Logging.dll",
+        "lib/net462/Microsoft.IdentityModel.Logging.xml",
+        "lib/net472/Microsoft.IdentityModel.Logging.dll",
+        "lib/net472/Microsoft.IdentityModel.Logging.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Logging.xml",
+        "lib/net8.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/net8.0/Microsoft.IdentityModel.Logging.xml",
+        "lib/net9.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/net9.0/Microsoft.IdentityModel.Logging.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.xml",
+        "microsoft.identitymodel.logging.8.0.0.nupkg.sha512",
+        "microsoft.identitymodel.logging.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Tokens/8.0.0": {
+      "sha512": "7QgSZtOkgW0yaACDuwf1wDzNwDlWEsS81ia3wZAlEgk45QQuqG3GkgqMELPMRBexC902ecjwmMQ1Act90mZD9w==",
+      "type": "package",
+      "path": "microsoft.identitymodel.tokens/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net462/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net472/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net472/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net6.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net6.0/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net8.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net8.0/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net9.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net9.0/Microsoft.IdentityModel.Tokens.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.xml",
+        "microsoft.identitymodel.tokens.8.0.0.nupkg.sha512",
+        "microsoft.identitymodel.tokens.nuspec"
       ]
     },
     "Microsoft.JSInterop/8.0.13": {
@@ -1846,6 +5523,254 @@
         "tools/net9.0/Microsoft.NET.WebAssembly.Webcil.dll"
       ]
     },
+    "Syncfusion.Blazor.Buttons/28.1.39": {
+      "sha512": "44HGu0HoI3SuVveh/4fhd2iHj+VHQWtybg0cJnkb2GLsX4q579WFC3sfHRsuZYCoR60Cvpvz/C8FqfZQPi5Ybg==",
+      "type": "package",
+      "path": "syncfusion.blazor.buttons/28.1.39",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Buttons.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Buttons.props",
+        "buildTransitive/Syncfusion.Blazor.Buttons.props",
+        "lib/net6.0/Syncfusion.Blazor.Buttons.dll",
+        "lib/net6.0/Syncfusion.Blazor.Buttons.xml",
+        "lib/net7.0/Syncfusion.Blazor.Buttons.dll",
+        "lib/net7.0/Syncfusion.Blazor.Buttons.xml",
+        "lib/net8.0/Syncfusion.Blazor.Buttons.dll",
+        "lib/net8.0/Syncfusion.Blazor.Buttons.xml",
+        "lib/net9.0/Syncfusion.Blazor.Buttons.dll",
+        "lib/net9.0/Syncfusion.Blazor.Buttons.xml",
+        "staticwebassets/scripts/sf-floating-action-button.min.js",
+        "staticwebassets/scripts/sf-speeddial.min.js",
+        "syncfusion.blazor.buttons.28.1.39.nupkg.sha512",
+        "syncfusion.blazor.buttons.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Blazor.Core/28.1.39": {
+      "sha512": "+KkJIcXlc3dQeQkd3MvP1M2JHZQEyuSPEWpFNFE6CqOQkCHrMFG2qsDgeLq8BNhPyJsG4cUWe4cfNJvEG1Ix0w==",
+      "type": "package",
+      "path": "syncfusion.blazor.core/28.1.39",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Core.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Core.props",
+        "buildTransitive/Syncfusion.Blazor.Core.props",
+        "lib/net6.0/Syncfusion.Blazor.Core.dll",
+        "lib/net6.0/Syncfusion.Blazor.Core.xml",
+        "lib/net7.0/Syncfusion.Blazor.Core.dll",
+        "lib/net7.0/Syncfusion.Blazor.Core.xml",
+        "lib/net8.0/Syncfusion.Blazor.Core.dll",
+        "lib/net8.0/Syncfusion.Blazor.Core.xml",
+        "lib/net9.0/Syncfusion.Blazor.Core.dll",
+        "lib/net9.0/Syncfusion.Blazor.Core.xml",
+        "staticwebassets/scripts/popup.min.js",
+        "staticwebassets/scripts/popupsbase.min.js",
+        "staticwebassets/scripts/sf-svg-export.min.js",
+        "staticwebassets/scripts/svgbase.min.js",
+        "staticwebassets/scripts/syncfusion-blazor-base.min.js",
+        "staticwebassets/scripts/syncfusion-blazor.min.js",
+        "syncfusion.blazor.core.28.1.39.nupkg.sha512",
+        "syncfusion.blazor.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Blazor.Popups/28.1.39": {
+      "sha512": "frwFnfq0F7AI1tXBv3t/YUJO1hs4CkKtsKofIqidfLlLIsmF08skASO/psSaiIaF/MfNVCcksHYWgBzy8ZKs+g==",
+      "type": "package",
+      "path": "syncfusion.blazor.popups/28.1.39",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Popups.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Popups.props",
+        "buildTransitive/Syncfusion.Blazor.Popups.props",
+        "lib/net6.0/Syncfusion.Blazor.Popups.dll",
+        "lib/net6.0/Syncfusion.Blazor.Popups.xml",
+        "lib/net7.0/Syncfusion.Blazor.Popups.dll",
+        "lib/net7.0/Syncfusion.Blazor.Popups.xml",
+        "lib/net8.0/Syncfusion.Blazor.Popups.dll",
+        "lib/net8.0/Syncfusion.Blazor.Popups.xml",
+        "lib/net9.0/Syncfusion.Blazor.Popups.dll",
+        "lib/net9.0/Syncfusion.Blazor.Popups.xml",
+        "staticwebassets/scripts/sf-dialog.min.js",
+        "staticwebassets/scripts/sf-tooltip.min.js",
+        "syncfusion.blazor.popups.28.1.39.nupkg.sha512",
+        "syncfusion.blazor.popups.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Blazor.Themes/28.1.39": {
+      "sha512": "EROxtqUyEFRFKZKBVKctGzvGzy779LVEyoFN8n6AC2a0inmzNhWXSM9nTrpObnoeMRK5DOKOua/GlWOmuaYDRg==",
+      "type": "package",
+      "path": "syncfusion.blazor.themes/28.1.39",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Themes.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Themes.props",
+        "buildTransitive/Syncfusion.Blazor.Themes.props",
+        "lib/net6.0/Syncfusion.Blazor.Themes.dll",
+        "lib/net6.0/Syncfusion.Blazor.Themes.xml",
+        "lib/net7.0/Syncfusion.Blazor.Themes.dll",
+        "lib/net7.0/Syncfusion.Blazor.Themes.xml",
+        "lib/net8.0/Syncfusion.Blazor.Themes.dll",
+        "lib/net8.0/Syncfusion.Blazor.Themes.xml",
+        "lib/net9.0/Syncfusion.Blazor.Themes.dll",
+        "lib/net9.0/Syncfusion.Blazor.Themes.xml",
+        "staticwebassets/bds-dark-lite.css",
+        "staticwebassets/bds-dark.css",
+        "staticwebassets/bds-lite.css",
+        "staticwebassets/bds.css",
+        "staticwebassets/bootstrap-dark-lite.css",
+        "staticwebassets/bootstrap-dark.css",
+        "staticwebassets/bootstrap-lite.css",
+        "staticwebassets/bootstrap.css",
+        "staticwebassets/bootstrap4-lite.css",
+        "staticwebassets/bootstrap4.css",
+        "staticwebassets/bootstrap5-dark-lite.css",
+        "staticwebassets/bootstrap5-dark.css",
+        "staticwebassets/bootstrap5-lite.css",
+        "staticwebassets/bootstrap5.3-dark-lite.css",
+        "staticwebassets/bootstrap5.3-dark.css",
+        "staticwebassets/bootstrap5.3-lite.css",
+        "staticwebassets/bootstrap5.3.css",
+        "staticwebassets/bootstrap5.css",
+        "staticwebassets/customized/material-dark.css",
+        "staticwebassets/customized/material.css",
+        "staticwebassets/customized/tailwind-dark.css",
+        "staticwebassets/customized/tailwind.css",
+        "staticwebassets/fabric-dark-lite.css",
+        "staticwebassets/fabric-dark.css",
+        "staticwebassets/fabric-lite.css",
+        "staticwebassets/fabric.css",
+        "staticwebassets/fluent-dark-lite.css",
+        "staticwebassets/fluent-dark.css",
+        "staticwebassets/fluent-lite.css",
+        "staticwebassets/fluent.css",
+        "staticwebassets/fluent2-dark-lite.css",
+        "staticwebassets/fluent2-dark.css",
+        "staticwebassets/fluent2-highcontrast-lite.css",
+        "staticwebassets/fluent2-highcontrast.css",
+        "staticwebassets/fluent2-lite.css",
+        "staticwebassets/fluent2.css",
+        "staticwebassets/highcontrast-lite.css",
+        "staticwebassets/highcontrast.css",
+        "staticwebassets/material-dark-lite.css",
+        "staticwebassets/material-dark.css",
+        "staticwebassets/material-lite.css",
+        "staticwebassets/material.css",
+        "staticwebassets/material3-dark-lite.css",
+        "staticwebassets/material3-dark.css",
+        "staticwebassets/material3-lite.css",
+        "staticwebassets/material3.css",
+        "staticwebassets/tailwind-dark-lite.css",
+        "staticwebassets/tailwind-dark.css",
+        "staticwebassets/tailwind-lite.css",
+        "staticwebassets/tailwind.css",
+        "staticwebassets/tailwind3-dark-lite.css",
+        "staticwebassets/tailwind3-dark.css",
+        "staticwebassets/tailwind3-lite.css",
+        "staticwebassets/tailwind3.css",
+        "syncfusion.blazor.themes.28.1.39.nupkg.sha512",
+        "syncfusion.blazor.themes.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Licensing/28.1.39": {
+      "sha512": "14JnqjXuS7YLn9HICC+wSg7E7CUH1cJVaEk55O+N1Dub7iB/8YuyPFlqFDGV6StQ4i7AMZJOYVn45aba+0E8YA==",
+      "type": "package",
+      "path": "syncfusion.licensing/28.1.39",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net462/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/net8.0/Syncfusion.Licensing.dll",
+        "lib/net9.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.28.1.39.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "System.Diagnostics.DiagnosticSource/8.0.0": {
+      "sha512": "c9xLpVz6PL9lp/djOWtk5KPDZq3cSYpmXoJQY524EOtuFl5z9ZtsotpsyrDW40U1DRnQSYvcPKEUV0X//u6gkQ==",
+      "type": "package",
+      "path": "system.diagnostics.diagnosticsource/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Diagnostics.DiagnosticSource.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.DiagnosticSource.targets",
+        "lib/net462/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net462/System.Diagnostics.DiagnosticSource.xml",
+        "lib/net6.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net6.0/System.Diagnostics.DiagnosticSource.xml",
+        "lib/net7.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net7.0/System.Diagnostics.DiagnosticSource.xml",
+        "lib/net8.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net8.0/System.Diagnostics.DiagnosticSource.xml",
+        "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.xml",
+        "system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+        "system.diagnostics.diagnosticsource.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.IdentityModel.Tokens.Jwt/8.0.0": {
+      "sha512": "K0dNZoXiedkpkz8v8xj3jH5IeSa3iAPNu2OegePynCeG6wiLx7CvBfDa90hYOBJ58Y21tZFd9RLpzfS7rEaHlQ==",
+      "type": "package",
+      "path": "system.identitymodel.tokens.jwt/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net462/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net472/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net472/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net6.0/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net8.0/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net9.0/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net9.0/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
+        "system.identitymodel.tokens.jwt.8.0.0.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.nuspec"
+      ]
+    },
     "System.IO.Pipelines/8.0.0": {
       "sha512": "FHNOatmUq0sqJOkTx+UF/9YK1f180cnW5FVqnQMvYUN0elp6wFzbtPSiqbo1/ru8ICp43JM1i7kKkk6GsNGHlA==",
       "type": "package",
@@ -1875,6 +5800,79 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.Text.Json/8.0.5": {
+      "sha512": "0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
+      "type": "package",
+      "path": "system.text.json/8.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn3.11/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.4/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "buildTransitive/net461/System.Text.Json.targets",
+        "buildTransitive/net462/System.Text.Json.targets",
+        "buildTransitive/net6.0/System.Text.Json.targets",
+        "buildTransitive/netcoreapp2.0/System.Text.Json.targets",
+        "buildTransitive/netstandard2.0/System.Text.Json.targets",
+        "lib/net462/System.Text.Json.dll",
+        "lib/net462/System.Text.Json.xml",
+        "lib/net6.0/System.Text.Json.dll",
+        "lib/net6.0/System.Text.Json.xml",
+        "lib/net7.0/System.Text.Json.dll",
+        "lib/net7.0/System.Text.Json.xml",
+        "lib/net8.0/System.Text.Json.dll",
+        "lib/net8.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.8.0.5.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "BaseLib/1.0.0": {
       "type": "project",
       "path": "../BaseLib/BaseLib.csproj",
@@ -1889,11 +5887,19 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "BaseLib >= 1.0.0",
+      "Blazor.Bootstrap.Icons >= 1.0.1",
+      "Blazored.LocalStorage >= 4.5.0",
       "ClientLib >= 1.0.0",
+      "Microsoft.AspNetCore.Components.Authorization >= 8.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.13",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.13",
+      "Microsoft.Extensions.Http >= 8.0.0",
       "Microsoft.NET.ILLink.Tasks >= 8.0.13",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.2"
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.2",
+      "Syncfusion.Blazor.Buttons >= 28.1.39",
+      "Syncfusion.Blazor.Popups >= 28.1.39",
+      "Syncfusion.Blazor.Themes >= 28.1.39",
+      "bootstrap >= 5.3.2"
     ]
   },
   "packageFolders": {
@@ -1947,6 +5953,18 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Blazor.Bootstrap.Icons": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
+          "Blazored.LocalStorage": {
+            "target": "Package",
+            "version": "[4.5.0, )"
+          },
+          "Microsoft.AspNetCore.Components.Authorization": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[8.0.13, )"
@@ -1955,6 +5973,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.13, )"
+          },
+          "Microsoft.Extensions.Http": {
+            "target": "Package",
+            "version": "[8.0.0, )"
           },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
@@ -1967,6 +5989,22 @@
             "target": "Package",
             "version": "[9.0.2, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Blazor.Buttons": {
+            "target": "Package",
+            "version": "[28.1.39, )"
+          },
+          "Syncfusion.Blazor.Popups": {
+            "target": "Package",
+            "version": "[28.1.39, )"
+          },
+          "Syncfusion.Blazor.Themes": {
+            "target": "Package",
+            "version": "[28.1.39, )"
+          },
+          "bootstrap": {
+            "target": "Package",
+            "version": "[5.3.2, )"
           }
         },
         "imports": [
