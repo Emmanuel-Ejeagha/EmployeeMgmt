@@ -121,25 +121,25 @@
     ]
   },
   "packageFolders": {
-    "/home/emma/.nuget/packages/": {}
+    "/home/emmytek/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/BaseLib.csproj",
+      "projectUniqueName": "/home/emmytek/Downloads/EmployeeMgmt/BaseLib/BaseLib.csproj",
       "projectName": "BaseLib",
-      "projectPath": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/BaseLib.csproj",
-      "packagesPath": "/home/emma/.nuget/packages/",
-      "outputPath": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/",
+      "projectPath": "/home/emmytek/Downloads/EmployeeMgmt/BaseLib/BaseLib.csproj",
+      "packagesPath": "/home/emmytek/.nuget/packages/",
+      "outputPath": "/home/emmytek/Downloads/EmployeeMgmt/BaseLib/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/emma/.nuget/NuGet/NuGet.Config"
+        "/home/emmytek/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/home/emma/Desktop/PROJECTS/packages/": {},
+        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -158,7 +158,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -185,7 +185,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

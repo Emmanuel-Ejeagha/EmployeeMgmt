@@ -1,26 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/home/emma/Desktop/PROJECTS/EmployeeMgmt/Client/Client.csproj": {}
+    "/home/emmytek/Downloads/EmployeeMgmt/Client/Client.csproj": {}
   },
   "projects": {
-    "/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/BaseLib.csproj": {
+    "/home/emmytek/Downloads/EmployeeMgmt/BaseLib/BaseLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/BaseLib.csproj",
+        "projectUniqueName": "/home/emmytek/Downloads/EmployeeMgmt/BaseLib/BaseLib.csproj",
         "projectName": "BaseLib",
-        "projectPath": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/BaseLib.csproj",
-        "packagesPath": "/home/emma/.nuget/packages/",
-        "outputPath": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/",
+        "projectPath": "/home/emmytek/Downloads/EmployeeMgmt/BaseLib/BaseLib.csproj",
+        "packagesPath": "/home/emmytek/.nuget/packages/",
+        "outputPath": "/home/emmytek/Downloads/EmployeeMgmt/BaseLib/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/emma/.nuget/NuGet/NuGet.Config"
+          "/home/emmytek/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/home/emma/Desktop/PROJECTS/packages/": {},
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -66,38 +66,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/emma/Desktop/PROJECTS/EmployeeMgmt/Client/Client.csproj": {
+    "/home/emmytek/Downloads/EmployeeMgmt/Client/Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/Client/Client.csproj",
+        "projectUniqueName": "/home/emmytek/Downloads/EmployeeMgmt/Client/Client.csproj",
         "projectName": "Client",
-        "projectPath": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/Client/Client.csproj",
-        "packagesPath": "/home/emma/.nuget/packages/",
-        "outputPath": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/Client/obj/",
+        "projectPath": "/home/emmytek/Downloads/EmployeeMgmt/Client/Client.csproj",
+        "packagesPath": "/home/emmytek/.nuget/packages/",
+        "outputPath": "/home/emmytek/Downloads/EmployeeMgmt/Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/emma/.nuget/NuGet/NuGet.Config"
+          "/home/emmytek/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/home/emma/Desktop/PROJECTS/packages/": {},
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/BaseLib.csproj": {
-                "projectPath": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/BaseLib.csproj"
+              "/home/emmytek/Downloads/EmployeeMgmt/BaseLib/BaseLib.csproj": {
+                "projectPath": "/home/emmytek/Downloads/EmployeeMgmt/BaseLib/BaseLib.csproj"
               },
-              "/home/emma/Desktop/PROJECTS/EmployeeMgmt/ClientLib/ClientLib.csproj": {
-                "projectPath": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/ClientLib/ClientLib.csproj"
+              "/home/emmytek/Downloads/EmployeeMgmt/ClientLib/ClientLib.csproj": {
+                "projectPath": "/home/emmytek/Downloads/EmployeeMgmt/ClientLib/ClientLib.csproj"
               }
             }
           }
@@ -112,7 +112,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -146,13 +146,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.13, )",
+              "version": "[8.0.19, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.2, )",
+              "version": "[9.0.8, )",
               "autoReferenced": true
             },
             "Syncfusion.Blazor.Buttons": {
@@ -186,7 +186,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.19, 8.0.19]"
             }
           ],
           "frameworkReferences": {
@@ -194,7 +194,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -203,31 +203,31 @@
         }
       }
     },
-    "/home/emma/Desktop/PROJECTS/EmployeeMgmt/ClientLib/ClientLib.csproj": {
+    "/home/emmytek/Downloads/EmployeeMgmt/ClientLib/ClientLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/ClientLib/ClientLib.csproj",
+        "projectUniqueName": "/home/emmytek/Downloads/EmployeeMgmt/ClientLib/ClientLib.csproj",
         "projectName": "ClientLib",
-        "projectPath": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/ClientLib/ClientLib.csproj",
-        "packagesPath": "/home/emma/.nuget/packages/",
-        "outputPath": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/ClientLib/obj/",
+        "projectPath": "/home/emmytek/Downloads/EmployeeMgmt/ClientLib/ClientLib.csproj",
+        "packagesPath": "/home/emmytek/.nuget/packages/",
+        "outputPath": "/home/emmytek/Downloads/EmployeeMgmt/ClientLib/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/emma/.nuget/NuGet/NuGet.Config"
+          "/home/emmytek/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/home/emma/Desktop/PROJECTS/packages/": {},
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/BaseLib.csproj": {
-                "projectPath": "/home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/BaseLib.csproj"
+              "/home/emmytek/Downloads/EmployeeMgmt/BaseLib/BaseLib.csproj": {
+                "projectPath": "/home/emmytek/Downloads/EmployeeMgmt/BaseLib/BaseLib.csproj"
               }
             }
           }
@@ -242,7 +242,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -281,7 +281,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

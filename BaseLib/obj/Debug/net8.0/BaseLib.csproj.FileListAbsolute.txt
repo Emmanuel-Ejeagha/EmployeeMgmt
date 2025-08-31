@@ -11,3 +11,16 @@
 /home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/Debug/net8.0/refint/BaseLib.dll
 /home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.pdb
 /home/emma/Desktop/PROJECTS/EmployeeMgmt/BaseLib/obj/Debug/net8.0/ref/BaseLib.dll
+/home/emmytek/Downloads/EmployeeMgmt/BaseLib/bin/Debug/net8.0/BaseLib.deps.json
+/home/emmytek/Downloads/EmployeeMgmt/BaseLib/bin/Debug/net8.0/BaseLib.dll
+/home/emmytek/Downloads/EmployeeMgmt/BaseLib/bin/Debug/net8.0/BaseLib.pdb
+/home/emmytek/Downloads/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.csproj.AssemblyReference.cache
+/home/emmytek/Downloads/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/emmytek/Downloads/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.AssemblyInfoInputs.cache
+/home/emmytek/Downloads/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.AssemblyInfo.cs
+/home/emmytek/Downloads/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.csproj.CoreCompileInputs.cache
+/home/emmytek/Downloads/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.sourcelink.json
+/home/emmytek/Downloads/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.dll
+/home/emmytek/Downloads/EmployeeMgmt/BaseLib/obj/Debug/net8.0/refint/BaseLib.dll
+/home/emmytek/Downloads/EmployeeMgmt/BaseLib/obj/Debug/net8.0/BaseLib.pdb
+/home/emmytek/Downloads/EmployeeMgmt/BaseLib/obj/Debug/net8.0/ref/BaseLib.dll
