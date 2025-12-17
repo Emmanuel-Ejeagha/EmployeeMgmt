@@ -6,6 +6,14 @@ Title: Employee Management App
 - Stack: .NET Core WebApi, Blazor, EF Core, SqlServer, Jwt
 
 ## Install & Dependence
+Open 2 different commandlines
+- cd Server/
+- dotnet restore
+- dotnet build
+- dotnet run
+- 
+
+- cd Client/
 - dotnet restore
 - dotnet build
 - dotnet run
